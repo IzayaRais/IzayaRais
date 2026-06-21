@@ -34,7 +34,7 @@
 
 > **Hardware depth. Software breadth. Research backed by silicon.**
 
-I'm a final-year **Electrical, Electronic & Communication Engineering** undergraduate at the **Military Institute of Science and Technology (MIST)**, Dhaka. My work sits at the intersection of semiconductor physics and modern software engineering — designing circuits at the 90nm CMOS node while shipping full-stack web applications and FPGA systems.
+I'm an **Electrical, Electronic & Communication Engineering** graduate at the **Military Institute of Science and Technology (MIST)**, Dhaka. My work sits at the intersection of semiconductor physics and modern software engineering — designing circuits at the 90nm CMOS node while shipping full-stack web applications and FPGA systems.
 
 - 🔬 **IEEE-published** researcher in **90nm CMOS technology** — low-power transistor design & characterization
 - 🖥️ **VLSI & FPGA** designer — RTL-to-GDSII flows, Verilog/VHDL, logic synthesis & timing closure
