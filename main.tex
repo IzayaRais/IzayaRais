@@ -1,0 +1,266 @@
+%============================================================
+%  MD. RAISUL ISLAM RATUL — General Engineering CV
+%  Optimized 2-Page Layout | Minimalist Gaps | Calibri Style
+%  Compile: pdflatex -> pdflatex (twice for correct spacing)
+%============================================================
+\documentclass[10pt,a4paper]{article}
+
+%── PACKAGES ──────────────────────────────────────────────────────────────
+\usepackage[
+  top=0.8cm, bottom=0.8cm,
+  left=1.25cm, right=1.25cm
+]{geometry}
+\usepackage[final,patch=none]{microtype}
+\usepackage{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage{amssymb}
+\usepackage{calc}
+\usepackage[export]{adjustbox}
+
+%── COLOURS ──────────────────────────────────────────────────────────────
+\definecolor{navy}{HTML}{1B3A6B}
+\definecolor{blue}{HTML}{2563AA}
+\definecolor{darkgray}{HTML}{2D2D2D}
+\definecolor{midgray}{HTML}{5A5A5A}
+\definecolor{lightbg}{HTML}{F4F6FA}
+\definecolor{headerbg}{HTML}{E8EFF8}
+\definecolor{photobg}{HTML}{E0E6EF}
+
+%── HYPERREF SETUP ───────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=navy,
+  pdfauthor={Md. Raisul Islam Ratul},
+  pdftitle={CV — Md. Raisul Islam Ratul}
+}
+
+%── SECTION HEADING STYLE ────────────────────────────────────────────────
+\newcommand{\cvsec}[1]{%
+  \vspace{5pt}%
+  \noindent
+  \colorbox{navy}{\rule{0pt}{9pt}\hspace{1.5pt}}%
+  \hspace{3pt}%
+  {\color{navy}\bfseries\large\MakeUppercase{#1}}%
+  \vspace{1pt}\\%
+  \noindent{\color{navy}\rule{\linewidth}{0.8pt}}%
+  \vspace{2pt}%
+}
+
+%── BULLET LIST STYLE ────────────────────────────────────────────────────
+\setlist[itemize]{
+  leftmargin=1.1em,
+  itemsep=0pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt,
+  label={\color{blue}\small\textbullet}
+}
+
+%── CUSTOM COMMANDS ───────────────────────────────────────────────────────
+\newcommand{\rolerow}[3]{%
+  \noindent
+  \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    {\bfseries\color{darkgray} #1} & {\small\itshape\color{midgray} #3}
+  \end{tabular*}\\[-3pt]
+  {\small\itshape\color{blue} #2}\\[1pt]
+}
+
+
+\newcommand{\trainrow}[3]{%
+  \noindent
+  \begin{tabular*}{\linewidth}{@{}p{0.76\linewidth}@{\extracolsep{\fill}}r@{}}
+    {\bfseries\color{darkgray} #1} & {\small\itshape\color{midgray} #2}
+  \end{tabular*}\\[-3pt]
+  {\small\color{darkgray}{\color{blue}\textbullet}\ #3}\\[1pt]
+}
+
+\newcommand{\leadrow}[4]{%
+  \noindent
+  \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    {\bfseries\color{darkgray} #1} & {\small\itshape\color{midgray} #3}
+  \end{tabular*}\\[-3pt]
+  {\small\itshape\color{blue} #2}\\[0pt]
+  {\small\color{darkgray}{\color{blue}\textbullet}\ #4}\\[1pt]
+}
+
+\newcommand{\edurow}[4]{%
+  \noindent
+  \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    {\bfseries\color{darkgray} #1} & {\small\itshape\color{midgray} #3}
+  \end{tabular*}\\[-3pt]
+  {\small\itshape\color{blue} #2}\\[0pt]
+  \ifx&#4&\else{\small\itshape\color{midgray} #4}\\[1pt]\fi
+}
+
+\newcommand{\projrow}[4]{%
+  \noindent
+  \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    {\bfseries\color{darkgray} #1}\ \ {\small\color{blue}|\ #2} &
+    {\small\itshape\color{midgray} #3}
+  \end{tabular*}\\[-3pt]
+  {\small\color{darkgray} #4}\\[2pt]
+}
+
+\newcommand{\skillrow}[2]{%
+  \noindent{\bfseries\color{navy} #1:}\enspace{\small\color{darkgray} #2}\\[1pt]
+}
+
+\newcommand{\pubrow}[3]{%
+  \noindent
+  \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    {\bfseries\color{darkgray} #1} & {\small\itshape\color{blue} #2}
+  \end{tabular*}\\[-3pt]
+  {\small\itshape\color{midgray} #3}\\[2pt]
+}
+
+\newcommand{\compbox}[1]{%
+  \noindent\colorbox{lightbg}{%
+    \parbox{0.318\linewidth}{\small\color{darkgray}
+      {\color{blue}$\blacksquare$}\ #1}%
+  }%
+}
+
+%── NO PARAGRAPH INDENT ──────────────────────────────────────────────────
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%═══════════════════════════════════════════════════════════════════════════
+\begin{document}
+\pagestyle{empty}
+\setstretch{1.05}
+
+%── HEADER ───────────────────────────────────────────────────────────────
+\noindent
+\colorbox{headerbg}{%
+  \begin{minipage}[c][3.1cm][c]{0.73\linewidth}
+    \hspace{8pt}\begin{minipage}{\linewidth-12pt}
+      {\color{navy}\bfseries\LARGE MD. RAISUL ISLAM RATUL}\\[4pt]
+      {\small\color{blue}\bfseries \textbullet\ EECE Graduate\ \textbullet\ VLSI \& IC Design\ \textbullet\ IEEE Researcher\\ \textbullet\ Engineering Leader}\\[6pt]
+      {\small\color{darkgray}
+        \faPhone\ +880 1642347728\quad
+        \faEnvelope\ \href{mailto:ratulraisul3@gmail.com}{ratulraisul3@gmail.com}\quad
+        \faLinkedin\ \href{https://linkedin.com/in/raisulislamratul}{raisulislamratul}
+      }\\[3pt]
+      {\small\color{blue}
+        \faGithub\ \href{https://github.com/IzayaRais}{github.com/IzayaRais}\quad
+        \faBehance\ \href{https://behance.net/raisulratul}{behance.net/raisulratul}\quad
+        \faGlobe\ \href{https://raisul-islam-ratul.vercel.app/}{Portfolio}
+      }\\[3pt]
+      {\small\color{darkgray}\faMapMarker\ Mirpur 11, Dhaka-1216}
+    \end{minipage}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c][3.1cm][c]{0.24\linewidth}
+    \centering
+    \setlength{\fboxsep}{0pt}%
+    \setlength{\fboxrule}{1pt}%
+    \color{navy}\fbox{%
+      \colorbox{photobg}{%
+        \includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{photo.jpg}%
+      }%
+    }%
+  \end{minipage}%
+}%
+
+\vspace{4pt}
+
+%── PROFESSIONAL SUMMARY ─────────────────────────────────────────────────
+\cvsec{Professional Summary}
+\justifying
+Final-year EECE undergraduate at MIST with deep expertise across VLSI \& IC physical design, embedded systems, power systems, and engineering automation. IEEE-published researcher with four papers — spanning low-power 90\,nm CMOS design, deep learning-based circuit analysis, and photonic sensing — including a first-authored IEEE ICCIT 2025 publication. Completed industrial attachments at Neural Semiconductor Ltd.\ and Ulkasemi Pvt.\ Ltd.\ with direct exposure to IC physical design flows and GDSII-level verification. Proven engineering leader: President of MIST Robotics Club (200+ members), Vice Chairperson of IEEE MIST Student Branch (300+ members), and Founding Member of IEEE EDS MIST Student Branch Chapter.
+
+%── EDUCATION ─────────────────────────────────────────────────────────────
+\cvsec{Education}
+\edurow{B.Sc — Electrical, Electronic \& Communication Engineering (Ongoing)}{Military Institute of Science and Technology (MIST) \textbullet\ Mirpur Cantt., Dhaka}{2022 – Present}{Coursework: VLSI Design \textbullet\ Power Systems \textbullet\ Control Systems \textbullet\ Digital Electronics \textbullet\ Microprocessors \& Embedded Systems \textbullet\ Communication Systems \textbullet\ Signal Processing \textbullet\ Electrical Machines}
+
+\edurow{Higher Secondary Certificate (HSC) — GPA 5.00\,/\,5.00}{Adamjee Cantonment College (ACC) \textbullet\ Dhaka Cantt.}{2021}{}
+
+\edurow{Secondary School Certificate (SSC) — GPA 5.00\,/\,5.00}{Adamjee Cantonment Public School (ACPS) \textbullet\ Dhaka Cantt.}{2019}{}
+
+%── CORE COMPETENCIES ────────────────────────────────────────────────────
+\cvsec{Core Competencies}
+\noindent
+\compbox{VLSI \& IC Physical Design}\hfill
+\compbox{Embedded Systems Design}\hfill
+\compbox{Power System Analysis}\\[3pt]
+\compbox{Circuit Simulation \& Testing}\hfill
+\compbox{RTL / HDL Design (Verilog)}\hfill
+\compbox{Workflow \& Process Automation}\\[3pt]
+\compbox{Engineering Team Leadership}\hfill
+\compbox{Project \& Event Management}\hfill
+\compbox{Research \& Publication}\\[3pt]
+\compbox{Cross-functional Coordination}\hfill
+\compbox{Problem Solving \& Debugging}\hfill
+\compbox{Technical Documentation}
+
+%── TECHNICAL SKILLS ─────────────────────────────────────────────────────
+\cvsec{Technical Skills}
+\skillrow{IC Design \& Physical Verification}{Cadence Virtuoso (Schematic Entry, Custom Layout, DRC/LVS, Post-Layout Simulation) \textbullet\ Microwind \textbullet\ Dsch2 \textbullet\ 90\,nm GPDK PDK}
+\skillrow{EDA \& Simulation Tools}{PSpice \textbullet\ OrCAD \textbullet\ COMSOL Multiphysics \textbullet\ ETAP \textbullet\ Proteus \textbullet\ MATLAB}
+\skillrow{HDL \& Digital Design}{Verilog HDL \textbullet\ FSM-based Design \textbullet\ Schematic-Driven Layout Methodology}
+\skillrow{Programming \& Scripting}{Python \textbullet\ C\,/\,C++ \textbullet\ JavaScript}
+\skillrow{Automation \& Systems}{n8n \textbullet\ Firebase \textbullet\ Google Apps Script \textbullet\ Power BI \textbullet\ MS Office Suite}
+
+%── INDUSTRIAL TRAINING ──────────────────────────────────────────────────
+\cvsec{Industrial Training}
+\trainrow{IC Design, Custom Layout \& Verification — Ulkasemi Pvt. Limited}{May 19–23, 2025}{Analog/digital IC design, standard-cell layout, custom methodology, and DRC/LVS schematic-to-layout verification.}
+\trainrow{Front-End IC Design \& GDSII Verification — Neural Semiconductor Limited}{May 12–16, 2025}{Observed front-end IC workflow and GDSII-level physical verification in an operational semiconductor design house.}
+\trainrow{Electronics Manufacturing \& QC — Walton Hi-Tech Industries PLC}{May 18–25, 2025}{Observed PCB assembly, product development, and QC workflows at a leading consumer electronics manufacturer.}
+
+
+\newpage
+%── LEADERSHIP ───────────────────────────────────────────────────────────
+\cvsec{Leadership \& Extracurricular}
+\leadrow{President — MIST Robotics Club}{Military Institute of Science and Technology (MIST)}{2025 – Ongoing}{Lead 200+ member engineering club; organized ROBOLUTION 2025 with 4 clubs, 13 teams, and 170 members; deployed n8n automation reducing coordination overhead by $\sim$60\%.}
+\leadrow{Vice Chairperson — IEEE MIST Student Branch}{IEEE / MIST}{2025 – Ongoing}{Oversee technical events, workshops, and industry collaborations for one of Bangladesh's most active IEEE student branches serving 300+ students.}
+\leadrow{Founding Member \& General Secretary — IEEE EDS MIST Student Branch Chapter}{IEEE EDS / MIST}{Ongoing}{Founded and built the chapter; organized technical workshops and launched a graphics course for member skill development.}
+\leadrow{Technical Team Co-ordinator — 6th ICEEICT International Conference 2024}{MIST, Dhaka}{2024}{Managed a 12-member team, coordinated with 3 session chairs, and supported 150+ presenters across a 2-day international conference.}
+\leadrow{BEAR Patron — Bangladesh National Semiconductor Symposium 2025}{IEEE / MIST, Dhaka}{2025}{Represented MIST institutionally and led Innovation Pavilion cross-functional teams from planning through execution.}
+
+%── KEY ENGINEERING PROJECTS ─────────────────────────────────────────────
+\cvsec{Key Engineering Projects}
+\projrow{Low-Power LECTOR VCO in 90\,nm CMOS}{Cadence Virtuoso \textbullet\ IEEE ICCIT 2025}{2024–2025}{Custom layout current-starved VCO using LECTOR technique — $\sim$90\% reduction in static power dissipation; full DRC/LVS verified and published at IEEE ICCIT 2025.}
+\projrow{Configurable Logic Block (CLB) in 90\,nm CMOS}{Cadence Virtuoso}{2024–2025}{3:1 CLB with LUT, MUX, SRAM, and DFF using schematic-driven layout; characterized propagation delay, energy, area, and Energy-Delay Product (EDP).}
+\projrow{4:1 MUX — 9 Logic Style Comparison in 90\,nm}{Cadence Virtuoso \textbullet\ 90\,nm GPDK}{2024}{Benchmarked 9 logic styles (CMOS, PTL, GDI + 6 others) for power, delay, and area; GDI identified as optimal — best power-delay product for low-power ALU design.}
+\projrow{POS / ERP Platform for SME \& Enterprise}{Full-Stack \textbullet\ \href{https://github.com/IzayaRais}{Project Repo}}{2024–2025}{Full-scale POS/ERP system with inventory management, transaction processing, role-based access control, and automated reporting for real deployed users.}
+\projrow{ANTORIP — Large-Scale Event Ticketing Platform}{Full-Stack \textbullet\ \href{https://antorip.vercel.app}{Live Demo}}{2024}{Developed a full-stack ticketing platform handling 4,500+ user registrations with real-time notifications, automated email workflows, and QR-based ticket verification.}
+
+%── PUBLICATIONS & ACHIEVEMENTS ──────────────────────────────────────────
+\cvsec{Publications \& Achievements}
+\pubrow{IEEE ICCIT 2025 — 1st Author\ [Published]}{Cox's Bazar, Dec.\ 2025}{M. R. Islam Ratul et al.\ ``Low-Power LECTOR-Based Current-Starved VCO in 90\,nm CMOS for Wireless IoT Networks.''}
+
+\pubrow{IEEE QPAIN 2026 — Co-Author\ [Published]}{CUET, Apr.\ 2026}{Md.\ Mahidul Haque et al.\ ``From Schematics to Netlists: Deep Learning Based Electrical Circuit Analysis.''}
+
+\pubrow{Elsevier Results in Optics — Co-Author\ [Under Review]}{MS No.\ RIO-D-26-00095R1}{A. C.\ Tirtha et al.\ ``High-Sensitivity Gold-Coated D-Shaped PCF-Based SPR Sensor for Biomedical Sensing Applications.''}
+
+\pubrow{IEEE ICECCE 2025 — Co-Author}{DOI: 10.1109/ECCE64574.2025.11013114}{F. H.\ Rhythm et al.\ ``Optimizing Monocular Depth Estimation through Bi-Level Nested Architecture Integration.''\ \textbullet\ Champion — IEEE Photonics Competition 2024.}
+
+%── REFERENCES ───────────────────────────────────────────────────────────
+\cvsec{References}
+\noindent
+\begin{tabular*}{\linewidth}{@{}p{0.48\linewidth}@{\hspace{0.04\linewidth}}p{0.48\linewidth}@{}}
+  {\bfseries\color{darkgray} Brig Gen K M Mustafizur Rahman, psc} &
+  {\bfseries\color{darkgray} Lt Col Md Tawfiq Amin, PhD, EME} \\
+  {\small\itshape\color{blue} Head of Department, EECE — MIST} &
+  {\small\itshape\color{blue} Assoc.\ Professor, EECE — MIST} \\
+  {\small\color{midgray} mustafizbcc@eece.mist.ac.bd} &
+  {\small\color{midgray} tawfiqamin@eece.mist.ac.bd} \\
+  {\small\color{midgray} +880-1769005794} &
+  {\small\color{midgray} +880-1769009256} \\
+\end{tabular*}
+
+\end{document}
