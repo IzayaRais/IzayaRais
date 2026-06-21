@@ -177,6 +177,29 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 <tr>
 
 <td width="50%" valign="top">
+<h3>🔬 LECTOR-Based CS-VCO (90nm CMOS)</h3>
+<a href="https://github.com/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=LECTOR-Based-CS-VCO-90nm-CMOS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
+</a>
+<p>Low-power LECTOR-based CS-VCO in 90nm CMOS for IoT — 95.472 µW, 3.873–5.526 GHz, FoM −145.5 dBc/Hz. Published in IEEE ICCIT 2025.</p>
+<img src="https://img.shields.io/badge/IEEE-Xplore-00629B?style=flat-square&logo=ieee" />
+<img src="https://img.shields.io/badge/Cadence-Virtuoso-e11d48?style=flat-square" />
+</td>
+
+<td width="50%" valign="top">
+<h3>🖥️ Configurable Logic Block (CLB) VLSI Design</h3>
+<a href="https://github.com/IzayaRais/CLB-VLSI-Design">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=CLB-VLSI-Design&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
+</a>
+<p>Complete CMOS-level design, layout, physical verification (DRC & LVS), and performance characterization of a 3:1 CLB FPGA unit using Cadence Virtuoso.</p>
+<img src="https://img.shields.io/badge/Cadence-Virtuoso-e11d48?style=flat-square" />
+<img src="https://img.shields.io/badge/SKILL-Scripting-7c3aed?style=flat-square" />
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
 <h3>🔊 Audio Signal Denoising via Autocorrelation</h3>
 <a href="https://github.com/IzayaRais/Analyzing-Audio-Signals-and-Denoise-the-using-Auto--Correlation-in-MATLAB">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Analyzing-Audio-Signals-and-Denoise-the-using-Auto--Correlation-in-MATLAB&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
@@ -207,12 +230,13 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 </td>
 
 <td width="50%" valign="top">
-<h3>⚡ [Your Next Featured Project]</h3>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/Status-Coming%20Soon-22c55e?style=for-the-badge" /><br/><br/>
-  Pin your VLSI/FPGA design, IEEE paper implementation, or next engineering project here for maximum recruiter visibility.
-</p>
+<h3>📡 Pulse-Code Modulation (PCM) Decoding System</h3>
+<a href="https://github.com/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Pulse-Code-Modulation-PCM-Decoding-System&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
+</a>
+<p>Hardware-based PCM encoder and decoder system design featuring dual-layer PCB layout (Proteus) and software simulations in MATLAB/Simulink.</p>
+<img src="https://img.shields.io/badge/Proteus-PCB%20Design-00b4d8?style=flat-square" />
+<img src="https://img.shields.io/badge/MATLAB-Simulink-f97316?style=flat-square&logo=mathworks" />
 </td>
 
 </tr>
