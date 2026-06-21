@@ -252,10 +252,12 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 
 | | |
 |:---|:---|
-| **Publication** | IEEE — 90nm CMOS Technology |
-| **Focus Area** | VLSI · Semiconductor Design · Low-Power Circuits |
-| **Institution** | Military Institute of Science & Technology (MIST) |
-| **Status** | Published ✅ |
+| **Paper Title** | *Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS for Wireless IoT Networks* |
+| **Venue** | IEEE 28th International Conference on Computer and Information Technology (ICCIT) |
+| **DOI** | [10.1109/ICCIT68739.2025.11552593](https://doi.org/10.1109/ICCIT68739.2025.11552593) |
+| **Focus Area** | VLSI · Semiconductor Design · Low-Power CMOS Circuits |
+| **Institution** | Military Institute of Science & Technology (MIST), Dhaka |
+| **Status** | Published in IEEE Xplore ✅ |
 
 > *"Bridging the gap between nanometer-scale silicon and real-world system design."*
 
