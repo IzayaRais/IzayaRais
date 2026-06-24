@@ -36,11 +36,11 @@
 
 I'm an **Electrical, Electronic & Communication Engineering** graduate from **Military Institute of Science and Technology (MIST)**, Dhaka. My work sits at the intersection of semiconductor physics and modern software engineering — designing circuits at the 90nm CMOS node while shipping full-stack web applications and FPGA systems.
 
-- 🔬 **IEEE-published** researcher in **90nm CMOS technology** — low-power transistor design & characterization
+- 🔬 **IEEE-published** researcher in **90nm CMOS technology** & **AI-based EDA automation**
 - 🖥️ **VLSI & FPGA** designer — RTL-to-GDSII flows, Verilog/VHDL, logic synthesis & timing closure
 - 🌐 **Full-Stack Developer** — JavaScript ecosystem, REST APIs, responsive UI/UX
 - 📡 **Signal Processing** engineer — DSP algorithms, audio analysis, MATLAB modelling
-- 🎯 Currently exploring: **AI hardware acceleration** & **neuromorphic computing architectures**
+- 🎯 Currently exploring: **AI hardware acceleration**, **deep learning-based circuit automation**, & **neuromorphic computing**
 
 ---
 
@@ -177,6 +177,17 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 <tr>
 
 <td width="50%" valign="top">
+<h3>🧠 Schematics to Netlists (IEEE QPAIN 2026)</h3>
+<a href="https://github.com/IzayaRais/Schematics-to-Netlists-Deep-Learning-Based-Electrical-Circuit-Analysis">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Schematics-to-Netlists-Deep-Learning-Based-Electrical-Circuit-Analysis&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
+</a>
+<p>Automated electrical schematic detection and SPICE netlist generation using YOLOv8x and YOLOv9e models combined with OCR-based text fusion.</p>
+<img src="https://img.shields.io/badge/IEEE-Xplore-00629B?style=flat-square&logo=ieee" />
+<img src="https://img.shields.io/badge/YOLO-v8%20%7C%20v9-yellow?style=flat-square" />
+<img src="https://img.shields.io/badge/PyTorch-Framework-ee4c2c?style=flat-square&logo=pytorch" />
+</td>
+
+<td width="50%" valign="top">
 <h3>🔬 LECTOR-Based CS-VCO (90nm CMOS)</h3>
 <a href="https://github.com/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=LECTOR-Based-CS-VCO-90nm-CMOS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
@@ -186,6 +197,9 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 <img src="https://img.shields.io/badge/Cadence-Virtuoso-e11d48?style=flat-square" />
 </td>
 
+</tr>
+<tr>
+
 <td width="50%" valign="top">
 <h3>🖥️ Configurable Logic Block (CLB) VLSI Design</h3>
 <a href="https://github.com/IzayaRais/CLB-VLSI-Design">
@@ -194,6 +208,16 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 <p>Complete CMOS-level design, layout, physical verification (DRC & LVS), and performance characterization of a 3:1 CLB FPGA unit using Cadence Virtuoso.</p>
 <img src="https://img.shields.io/badge/Cadence-Virtuoso-e11d48?style=flat-square" />
 <img src="https://img.shields.io/badge/SKILL-Scripting-7c3aed?style=flat-square" />
+</td>
+
+<td width="50%" valign="top">
+<h3>📡 Pulse-Code Modulation (PCM) Decoding System</h3>
+<a href="https://github.com/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Pulse-Code-Modulation-PCM-Decoding-System&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
+</a>
+<p>Hardware-based PCM encoder and decoder system design featuring dual-layer PCB layout (Proteus) and software simulations in MATLAB/Simulink.</p>
+<img src="https://img.shields.io/badge/Proteus-PCB%20Design-00b4d8?style=flat-square" />
+<img src="https://img.shields.io/badge/MATLAB-Simulink-f97316?style=flat-square&logo=mathworks" />
 </td>
 
 </tr>
@@ -209,34 +233,12 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 </td>
 
 <td width="50%" valign="top">
-<h3>🎙️ Distinctive Word Audio Analysis</h3>
-<a href="https://github.com/IzayaRais/Analyzing-Audio-Signals-of-Distinctive-Words-Using-MATLAB">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Analyzing-Audio-Signals-of-Distinctive-Words-Using-MATLAB&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Time-domain and frequency-domain characterization of phoneme-level audio signals — foundational work bridging DSP and speech recognition pipelines.</p>
-<img src="https://img.shields.io/badge/MATLAB-Audio%20Analysis-00b4d8?style=flat-square&logo=mathworks" />
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" valign="top">
 <h3>🌐 Portfolio Website</h3>
 <a href="https://github.com/IzayaRais/portfolio">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
 </a>
 <p>Personal portfolio deployed on Vercel — showcasing VLSI research, FPGA projects, and full-stack work in a responsive, performance-optimized interface.</p>
 <img src="https://img.shields.io/badge/JavaScript-Vercel-7c3aed?style=flat-square&logo=vercel" />
-</td>
-
-<td width="50%" valign="top">
-<h3>📡 Pulse-Code Modulation (PCM) Decoding System</h3>
-<a href="https://github.com/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Pulse-Code-Modulation-PCM-Decoding-System&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Hardware-based PCM encoder and decoder system design featuring dual-layer PCB layout (Proteus) and software simulations in MATLAB/Simulink.</p>
-<img src="https://img.shields.io/badge/Proteus-PCB%20Design-00b4d8?style=flat-square" />
-<img src="https://img.shields.io/badge/MATLAB-Simulink-f97316?style=flat-square&logo=mathworks" />
 </td>
 
 </tr>
@@ -252,14 +254,10 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 
 | | |
 |:---|:---|
-| **Paper Title** | *Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS for Wireless IoT Networks* |
-| **Venue** | IEEE 28th International Conference on Computer and Information Technology (ICCIT) |
-| **DOI** | [10.1109/ICCIT68739.2025.11552593](https://doi.org/10.1109/ICCIT68739.2025.11552593) |
-| **Focus Area** | VLSI · Semiconductor Design · Low-Power CMOS Circuits |
-| **Institution** | Military Institute of Science & Technology (MIST), Dhaka |
-| **Status** | Published in IEEE Xplore ✅ |
+| **From Schematics to Netlists: Deep Learning Based Electrical Circuit Analysis** | **Venue**: IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN 2026)<br>**DOI**: [10.1109/QPAIN69676.2026.11545525](https://doi.org/10.1109/QPAIN69676.2026.11545525)<br>**Focus Area**: Deep Learning · Computer Vision · EDA Automation<br>**Status**: Published in IEEE Xplore ✅ |
+| **Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS for Wireless IoT Networks** | **Venue**: IEEE 28th International Conference on Computer and Information Technology (ICCIT 2025)<br>**DOI**: [10.1109/ICCIT68739.2025.11552593](https://doi.org/10.1109/ICCIT68739.2025.11552593)<br>**Focus Area**: VLSI · Semiconductor Design · Low-Power CMOS Circuits<br>**Status**: Published in IEEE Xplore ✅ |
 
-> *"Bridging the gap between nanometer-scale silicon and real-world system design."*
+> *"Bridging the gap between silicon layout, digital signal processing, and AI-driven automation."*
 
 </div>
 
