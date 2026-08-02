@@ -23,7 +23,7 @@
 <!-- ── PROFILE VIEWS + SOCIAL PROOF ───────────────────────────── -->
 ![Profile Views](https://komarev.com/ghpvc/?username=IzayaRais&color=00b4d8&style=flat-square&label=Profile+Views)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/raisulislamratul/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7c3aed?style=flat-square&logo=vercel)](https://raisul-islam-ratul.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7c3aed?style=flat-square&logo=vercel)](https://raisul-ratul-portfolio.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-Contact-ea4335?style=flat-square&logo=gmail)](mailto:raisultensors@gmail.com)
 
 </div>
@@ -271,8 +271,8 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
   <img src="https://img.shields.io/badge/LinkedIn-Raisul%20Islam%20Ratul-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://raisul-islam-ratul.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-raisul--islam--ratul.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" />
+<a href="https://raisul-ratul-portfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-raisul--ratul--portfolio.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 &nbsp;
 <a href="mailto:raisultensors@gmail.com">
