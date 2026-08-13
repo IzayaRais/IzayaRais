@@ -155,9 +155,8 @@ A focused home for my VLSI research, FPGA work, signal-processing experiments, a
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=IzayaRais&theme=tokyonight&hide_border=true&background=0D1117&ring=00D4FF&fire=9B5CFF&currStreakLabel=00D4FF&sideLabels=B9C4E4&dates=7783A8" width="70%" alt="GitHub contribution streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=IzayaRais&theme=tokyonight&hide_border=true&background=0D1117&ring=00D4FF&fire=9B5CFF&currStreakLabel=00D4FF&sideLabels=B9C4E4&dates=7783A8" width="70%" alt="GitHub contribution streak" />
 </div>
-
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=IzayaRais&bg_color=0D1117&color=B9C4E4&line=00D4FF&point=9B5CFF&area=true&hide_border=true&custom_title=Contribution%20pulse" width="100%" alt="GitHub contribution activity graph" />
 </div>
@@ -168,6 +167,63 @@ A focused home for my VLSI research, FPGA work, signal-processing experiments, a
 These visuals are a live view of public GitHub activity: repositories, language mix, commit history, contribution streaks, and the rhythm of recent work. They complement the curated project stories above rather than replacing them.
 
 </details>
+
+## Pinned workbench
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Pulse-Code-Modulation PCM](https://github.com/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System)
+
+Hardware-oriented PCM encoder and decoder system with PCB design and MATLAB/Simulink exploration.
+
+<img src="https://img.shields.io/github/stars/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System?style=flat-square&amp;color=00D4FF" alt="Stars" />
+<img src="https://img.shields.io/github/last-commit/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System?style=flat-square&amp;color=9B5CFF" alt="Last commit" />
+<img src="https://img.shields.io/github/commit-activity/y/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System?style=flat-square&amp;color=22C55E" alt="Commit activity" />
+
+</td>
+<td width="50%" valign="top">
+
+### [Ticketing App](https://github.com/IzayaRais/ticketing-app)
+
+A pinned TypeScript application repository focused on building a practical product workflow.
+
+<img src="https://img.shields.io/github/stars/IzayaRais/ticketing-app?style=flat-square&amp;color=00D4FF" alt="Stars" />
+<img src="https://img.shields.io/github/last-commit/IzayaRais/ticketing-app?style=flat-square&amp;color=9B5CFF" alt="Last commit" />
+<img src="https://img.shields.io/github/languages/top/IzayaRais/ticketing-app?style=flat-square&amp;color=22C55E" alt="Top language" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [LECTOR-Based CS-VCO](https://github.com/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS)
+
+Low-power 90 nm CMOS VCO design for wireless IoT networks, published in IEEE ICCIT 2025.
+
+<img src="https://img.shields.io/github/stars/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS?style=flat-square&amp;color=00D4FF" alt="Stars" />
+<img src="https://img.shields.io/github/last-commit/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS?style=flat-square&amp;color=9B5CFF" alt="Last commit" />
+<img src="https://img.shields.io/github/commit-activity/y/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS?style=flat-square&amp;color=22C55E" alt="Commit activity" />
+
+</td>
+<td width="50%" valign="top">
+
+### [CLB VLSI Design](https://github.com/IzayaRais/CLB-VLSI-Design)
+
+Complete CMOS-level design, layout, DRC/LVS verification, and characterization of a configurable logic block.
+
+<img src="https://img.shields.io/github/stars/IzayaRais/CLB-VLSI-Design?style=flat-square&amp;color=00D4FF" alt="Stars" />
+<img src="https://img.shields.io/github/last-commit/IzayaRais/CLB-VLSI-Design?style=flat-square&amp;color=9B5CFF" alt="Last commit" />
+<img src="https://img.shields.io/github/languages/top/IzayaRais/CLB-VLSI-Design?style=flat-square&amp;color=22C55E" alt="Top language" />
+
+</td>
+</tr>
+</table>
+</div>
+
+<sub>Repository names are curated from your GitHub pinned list; the badges update live from GitHub repository metadata.</sub>
 
 ## Live workbench
 
