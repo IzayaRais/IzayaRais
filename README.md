@@ -268,6 +268,34 @@ The repository list below is refreshed automatically, so this section reflects t
 - **[FMHY](https://github.com/IzayaRais/FMHY)** — updated 18 pages ([commit](https://github.com/IzayaRais/FMHY/commit/e6a2bb88f3474d664bed88af33ddd0a45369960a))
 <!-- END_WEEKLY_PULSE -->
 
+## Latest research & writing
+
+<!-- START_RESEARCH_DESK -->
+| Publication or article | Focus | Link |
+|:---|:---|:---|
+| Research and writing updates will appear here | — | [Portfolio](https://raisul-ratul-portfolio.vercel.app/) |
+<!-- END_RESEARCH_DESK -->
+
+## Project health
+
+<!-- START_PROJECT_HEALTH -->
+| Project | Workflow health | Open PRs | Latest release |
+|:---|:---:|:---:|:---|
+| Health signals will appear here after the next scheduled run | — | — | — |
+<!-- END_PROJECT_HEALTH -->
+
+## Collaboration status
+
+<div align="center">
+
+![Open to collaboration](https://img.shields.io/badge/OPEN_TO-COLLABORATION-00D4FF?style=for-the-badge&labelColor=0D1117&logo=github)
+![Research](https://img.shields.io/badge/RESEARCH-IEEE%20%7C%20VLSI%20%7C%20AI--EDA-9B5CFF?style=for-the-badge&labelColor=0D1117&logo=ieee)
+![Engineering](https://img.shields.io/badge/BUILDING-FULL--STACK%20SYSTEMS-22C55E?style=for-the-badge&labelColor=0D1117&logo=typescript)
+
+</div>
+
+I am open to **research collaborations, VLSI and IC physical-design opportunities, embedded-systems work, AI-assisted EDA projects, and full-stack engineering roles**. The best conversations usually start with a difficult system, a clear question, and a willingness to build a useful answer.
+
 ## Current direction
 
 I am especially interested in work where **hardware knowledge becomes leverage for better software**: intelligent EDA tools, hardware-aware machine learning, efficient computing, and engineering interfaces that make complex systems legible.
