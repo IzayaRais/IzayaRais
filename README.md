@@ -129,9 +129,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A real-time analytics dashboard for DESCO prepaid electricity meters | 2026-08-13 |
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Bangl… | 2026-08-13 |
 | [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
-| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF parser for AI-ready data and accessibility automation | 2026-08-07 |
+| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 2026-08-07 |
 <!-- END_RECENT_REPOS -->
 
 ## Current direction
