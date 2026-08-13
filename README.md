@@ -240,7 +240,7 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Bangl… | 2026-08-13 |
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Banglad… | 2026-08-13 |
 | [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
 | [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 2026-08-07 |
 <!-- END_RECENT_REPOS -->
@@ -250,7 +250,7 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor).
+> From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 9 · Fixes 4 · Documentation 1 · Maintenance 6**.
 
 </div>
 
@@ -258,7 +258,14 @@ The repository list below is refreshed automatically, so this section reflects t
 |:---|:---|
 | Public repositories updated | 2 |
 | Commits pushed | 21 |
+| Contribution mix | Research 1 · Features 9 · Fixes 4 · Documentation 1 · Maintenance 6 |
+| Pull requests | 1 |
+| Releases | 0 |
 | Most active repository | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) |
+
+### This Week in the Lab
+
+From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 9 · Fixes 4 · Documentation 1 · Maintenance 6**.
 
 ### Latest pushes
 
@@ -273,7 +280,10 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RESEARCH_DESK -->
 | Publication or article | Focus | Link |
 |:---|:---|:---|
-| Research and writing updates will appear here | — | [Portfolio](https://raisul-ratul-portfolio.vercel.app/) |
+| Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS for Wireless IoT Networks | Research publication · see portfolio page | [Read more](https://raisul-ratul-portfolio.vercel.app/publications/low-power-lector-current-starved-vco-90nm-cmos.html) |
+| From Schematics to Netlists: Deep Learning Based Electrical Circuit Analysis | Research publication · see portfolio page | [Read more](https://raisul-ratul-portfolio.vercel.app/publications/schematics-to-netlists-deep-learning-circuit-analysis.html) |
+| High-Sensitivity Gold-Coated D-Shaped PCF-Based SPR Sensor for Biomedical Sensing Applications | Research publication · see portfolio page | [Read more](https://raisul-ratul-portfolio.vercel.app/publications/gold-coated-d-shaped-pcf-spr-sensor.html) |
+| Optimizing Monocular Depth Estimation through Bi-Level Nested Architecture Integration | Research publication · see portfolio page | [Read more](https://raisul-ratul-portfolio.vercel.app/publications/monocular-depth-estimation-bi-level-nested-architecture.html) |
 <!-- END_RESEARCH_DESK -->
 
 ## Project health
@@ -281,7 +291,10 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
-| Health signals will appear here after the next scheduled run | — | — | — |
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | [in progress] | 0 | — |
+| [FMHY](https://github.com/IzayaRais/FMHY) | [in progress] | 0 | — |
+| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | [in progress] | 0 | — |
+| [uptime-tracker](https://github.com/IzayaRais/uptime-tracker) | [in progress] | 1 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
