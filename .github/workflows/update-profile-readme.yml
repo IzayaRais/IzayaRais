@@ -15,7 +15,7 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
-      - name: Refresh weekly README snapshot
+      - name: Refresh weekly profile report
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -30,6 +30,15 @@ jobs:
             const { data: readme } = await github.rest.repos.getContent({ owner, repo, path: readmePath, ref: branch });
             const current = Buffer.from(readme.content, 'base64').toString('utf8');
 
+            const clean = (value, max = 160) => {
+              const text = String(value || '—')
+                .replace(/[\r\n]/g, ' ')
+                .replace(/\|/g, '\\|')
+                .replace(/[\[\]<>]/g, '')
+                .trim();
+              return text.length > max ? `${text.slice(0, max - 1).trimEnd()}…` : text;
+            };
+
             const repositories = await github.paginate(github.rest.repos.listForUser, {
               username: owner,
               type: 'owner',
@@ -41,19 +50,13 @@ jobs:
             const publicRepositories = repositories.filter(item =>
               !item.private && item.name.toLowerCase() !== owner.toLowerCase()
             );
-
             const recent = publicRepositories.slice(0, 3);
+
             const repoRows = recent.length
               ? recent.map(item => {
-                  const description = (item.description || 'No description provided')
-                    .replace(/\|/g, '\\|')
-                    .replace(/\r?\n/g, ' ')
-                    .trim();
-                  const compactDescription = description.length > 120
-                    ? `${description.slice(0, 117).trimEnd()}…`
-                    : description;
+                  const description = clean(item.description || 'No description provided', 120);
                   const updated = item.pushed_at ? item.pushed_at.slice(0, 10) : '—';
-                  return `| [${item.name}](${item.html_url}) | ${compactDescription} | ${updated} |`;
+                  return `| [${item.name}](${item.html_url}) | ${description} | ${updated} |`;
                 }).join('\n')
               : '| No public repositories found | — | — |';
 
@@ -65,13 +68,32 @@ jobs:
               '<!-- END_RECENT_REPOS -->'
             ].join('\n');
 
+            const classify = subject => {
+              const text = subject.toLowerCase();
+              if (/\b(research|paper|ieee|eda|cmos|vlsi|fpga|circuit|model|dataset)\b/.test(text)) return 'Research';
+              if (/\b(feat|feature|add|implement|build|create|enhance)\b/.test(text)) return 'Features';
+              if (/\b(fix|bug|resolve|repair|patch|correct)\b/.test(text)) return 'Fixes';
+              if (/\b(doc|readme|docs|comment|write)\b/.test(text)) return 'Documentation';
+              return 'Maintenance';
+            };
+
             const activeRepositories = [];
             const latestPushes = [];
+            const contributionMix = {
+              Research: 0,
+              Features: 0,
+              Fixes: 0,
+              Documentation: 0,
+              Maintenance: 0
+            };
             let totalCommits = 0;
+            let totalPullRequests = 0;
+            let mergedPullRequests = 0;
+            let totalReleases = 0;
 
             for (const repository of publicRepositories.filter(item =>
               item.pushed_at && new Date(item.pushed_at) >= since
-            ).slice(0, 12)) {
+            ).slice(0, 8)) {
               let commits = [];
               try {
                 commits = await github.paginate(github.rest.repos.listCommits, {
@@ -85,37 +107,69 @@ jobs:
               }
 
               totalCommits += commits.length;
+              commits.forEach(commit => {
+                contributionMix[classify(commit.commit.message)] += 1;
+              });
+
               if (commits.length > 0) {
                 activeRepositories.push({ repository, commits });
-                for (const commit of commits.slice(0, 2)) {
-                  const subject = (commit.commit.message || 'Untitled change')
-                    .split('\n')[0]
-                    .replace(/[\[\]<>]/g, '')
-                    .replace(/\|/g, '\\|')
-                    .trim();
+                commits.slice(0, 2).forEach(commit => {
                   latestPushes.push({
                     date: commit.commit.author?.date || commit.commit.committer?.date || '',
                     repository,
-                    subject,
+                    subject: clean((commit.commit.message || 'Untitled change').split('\n')[0], 140),
                     url: commit.html_url
                   });
-                }
+                });
+              }
+
+              try {
+                const pullRequests = await github.paginate(github.rest.pulls.list, {
+                  owner,
+                  repo: repository.name,
+                  state: 'all',
+                  sort: 'updated',
+                  direction: 'desc',
+                  per_page: 100
+                });
+                const recentPullRequests = pullRequests.filter(item =>
+                  item.updated_at && new Date(item.updated_at) >= since
+                );
+                totalPullRequests += recentPullRequests.length;
+                mergedPullRequests += recentPullRequests.filter(item => item.merged_at).length;
+              } catch (error) {
+                core.warning(`Could not read pull requests for ${repository.name}: ${error.message}`);
+              }
+
+              try {
+                const releases = await github.paginate(github.rest.repos.listReleases, {
+                  owner,
+                  repo: repository.name,
+                  per_page: 100
+                });
+                totalReleases += releases.filter(item =>
+                  item.published_at && new Date(item.published_at) >= since
+                ).length;
+              } catch (error) {
+                core.warning(`Could not read releases for ${repository.name}: ${error.message}`);
               }
             }
 
             activeRepositories.sort((a, b) => b.commits.length - a.commits.length);
             latestPushes.sort((a, b) => new Date(b.date) - new Date(a.date));
-
             const activeCount = activeRepositories.length;
             const mostActive = activeRepositories[0]
               ? `[${activeRepositories[0].repository.name}](${activeRepositories[0].repository.html_url})`
               : 'No public repository activity';
             const startLabel = since.toISOString().slice(0, 10);
             const endLabel = until.toISOString().slice(0, 10);
-            const summary = activeCount
-              ? `From ${startLabel} to ${endLabel}, I pushed **${totalCommits} commit${totalCommits === 1 ? '' : 's'}** across **${activeCount} public repositor${activeCount === 1 ? 'y' : 'ies'}**. The most active thread was ${mostActive}.`
+            const contributionSummary = Object.entries(contributionMix)
+              .filter(([, count]) => count > 0)
+              .map(([kind, count]) => `${kind} ${count}`)
+              .join(' · ') || 'No classified commits';
+            const weeklySummary = activeCount
+              ? `From ${startLabel} to ${endLabel}, I pushed **${totalCommits} commit${totalCommits === 1 ? '' : 's'}** across **${activeCount} public repositor${activeCount === 1 ? 'y' : 'ies'}**. The most active thread was ${mostActive}, with the work leaning toward **${contributionSummary}**.`
               : `From ${startLabel} to ${endLabel}, the public workbench recorded no repository commits.`;
-
             const latestRows = latestPushes.length
               ? latestPushes.slice(0, 5).map(item =>
                   `- **[${item.repository.name}](${item.repository.html_url})** — ${item.subject} ([commit](${item.url}))`
@@ -126,7 +180,7 @@ jobs:
               '<!-- START_WEEKLY_PULSE -->',
               '<div align="center">',
               '',
-              `> ${summary}`,
+              `> ${weeklySummary}`,
               '',
               '</div>',
               '',
@@ -134,7 +188,14 @@ jobs:
               '|:---|:---|',
               `| Public repositories updated | ${activeCount} |`,
               `| Commits pushed | ${totalCommits} |`,
+              `| Contribution mix | ${clean(contributionSummary, 180)} |`,
+              `| Pull requests | ${totalPullRequests}${mergedPullRequests ? ` (${mergedPullRequests} merged)` : ''} |`,
+              `| Releases | ${totalReleases} |`,
               `| Most active repository | ${mostActive} |`,
+              '',
+              '### This Week in the Lab',
+              '',
+              weeklySummary,
               '',
               '### Latest pushes',
               '',
@@ -142,17 +203,130 @@ jobs:
               '<!-- END_WEEKLY_PULSE -->'
             ].join('\n');
 
+            let researchItems = [
+              {
+                title: 'From Schematics to Netlists: Deep Learning Based Electrical Circuit Analysis',
+                focus: 'Computer vision · OCR · EDA automation',
+                url: 'https://raisul-ratul-portfolio.vercel.app/publications/schematics-to-netlists-deep-learning-circuit-analysis.html'
+              },
+              {
+                title: 'Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS',
+                focus: 'VLSI · low-power CMOS · wireless IoT',
+                url: 'https://raisul-ratul-portfolio.vercel.app/publications/low-power-lector-current-starved-vco-90nm-cmos.html'
+              },
+              {
+                title: 'Optimizing Monocular Depth Estimation through Bi-Level Nested Architecture Integration',
+                focus: 'Computer vision · deep learning · optimization',
+                url: 'https://raisul-ratul-portfolio.vercel.app/publications/monocular-depth-estimation-bi-level-nested-architecture.html'
+              },
+              {
+                title: 'High-Sensitivity Gold-Coated D-Shaped PCF-Based SPR Sensor',
+                focus: 'Optical sensing · photonic crystal fiber · biomedical sensing',
+                url: 'https://raisul-ratul-portfolio.vercel.app/publications/gold-coated-d-shaped-pcf-spr-sensor.html'
+              }
+            ];
+
+            try {
+              const portfolioResponse = await fetch('https://raisul-ratul-portfolio.vercel.app/llms.txt');
+              if (portfolioResponse.ok) {
+                const portfolioText = await portfolioResponse.text();
+                const pageLinks = [...portfolioText.matchAll(/^- \[(.+?)\]\((https?:\/\/[^)]+)\)/gm)]
+                  .filter(match => match[2].includes('/publications/'))
+                  .map(match => ({ title: match[1], url: match[2] }));
+                if (pageLinks.length > 0) {
+                  researchItems = pageLinks.slice(0, 4).map(item => ({
+                    title: clean(item.title, 120),
+                    focus: 'Research publication · see portfolio page',
+                    url: item.url
+                  }));
+                }
+              }
+            } catch (error) {
+              core.warning(`Portfolio research feed unavailable: ${error.message}`);
+            }
+
+            const researchRows = researchItems.map(item =>
+              `| ${item.title} | ${item.focus} | [Read more](${item.url}) |`
+            ).join('\n');
+            const researchReplacement = [
+              '<!-- START_RESEARCH_DESK -->',
+              '| Publication or article | Focus | Link |',
+              '|:---|:---|:---|',
+              researchRows,
+              '<!-- END_RESEARCH_DESK -->'
+            ].join('\n');
+
+            const healthRows = [];
+            for (const repository of publicRepositories.slice(0, 4)) {
+              let workflowHealth = '— no recent workflow';
+              try {
+                const { data: runs } = await github.rest.actions.listWorkflowRunsForRepo({
+                  owner,
+                  repo: repository.name,
+                  per_page: 1
+                });
+                const latestRun = runs.workflow_runs?.[0];
+                if (latestRun?.status !== 'completed') workflowHealth = '[in progress]';
+                else if (latestRun.conclusion === 'success') workflowHealth = '[passing]';
+                else if (latestRun.conclusion) workflowHealth = `[${latestRun.conclusion}]`;
+              } catch (error) {
+                workflowHealth = '— no workflow data';
+              }
+
+              let openPullRequests = 0;
+              try {
+                const { data: pulls } = await github.rest.pulls.list({
+                  owner,
+                  repo: repository.name,
+                  state: 'open',
+                  per_page: 100
+                });
+                openPullRequests = pulls.length;
+              } catch (error) {
+                core.warning(`Could not read open PRs for ${repository.name}: ${error.message}`);
+              }
+
+              let latestRelease = '—';
+              try {
+                const { data: releases } = await github.rest.repos.listReleases({
+                  owner,
+                  repo: repository.name,
+                  per_page: 1
+                });
+                if (releases[0]) {
+                  latestRelease = `[${clean(releases[0].tag_name || releases[0].name, 32)}](${releases[0].html_url})`;
+                }
+              } catch (error) {
+                latestRelease = '—';
+              }
+
+              healthRows.push(`| [${repository.name}](${repository.html_url}) | ${workflowHealth} | ${openPullRequests} | ${latestRelease} |`);
+            }
+
+            const healthReplacement = [
+              '<!-- START_PROJECT_HEALTH -->',
+              '| Project | Workflow health | Open PRs | Latest release |',
+              '|:---|:---:|:---:|:---|',
+              healthRows.join('\n') || '| No public projects found | — | — | — |',
+              '<!-- END_PROJECT_HEALTH -->'
+            ].join('\n');
+
             const recentMarkerPattern = /<!-- START_RECENT_REPOS -->[\s\S]*?<!-- END_RECENT_REPOS -->/;
             const weeklyMarkerPattern = /<!-- START_WEEKLY_PULSE -->[\s\S]*?<!-- END_WEEKLY_PULSE -->/;
+            const researchMarkerPattern = /<!-- START_RESEARCH_DESK -->[\s\S]*?<!-- END_RESEARCH_DESK -->/;
+            const healthMarkerPattern = /<!-- START_PROJECT_HEALTH -->[\s\S]*?<!-- END_PROJECT_HEALTH -->/;
 
-            if (!recentMarkerPattern.test(current) || !weeklyMarkerPattern.test(current)) {
-              core.setFailed('README dynamic markers were not found.');
+            if (!recentMarkerPattern.test(current) || !weeklyMarkerPattern.test(current) ||
+                !researchMarkerPattern.test(current) || !healthMarkerPattern.test(current)) {
+              core.setFailed('README report markers were not found.');
               return;
             }
 
             const updated = current
               .replace(recentMarkerPattern, recentReposReplacement)
-              .replace(weeklyMarkerPattern, weeklyReplacement);
+              .replace(weeklyMarkerPattern, weeklyReplacement)
+              .replace(researchMarkerPattern, researchReplacement)
+              .replace(healthMarkerPattern, healthReplacement);
 
             if (updated === current) {
               core.info('README is already up to date.');
@@ -163,10 +337,10 @@ jobs:
               owner,
               repo,
               path: readmePath,
-              message: 'chore: refresh weekly profile README',
+              message: 'chore: refresh weekly profile report',
               content: Buffer.from(updated, 'utf8').toString('base64'),
               sha: readme.sha,
               branch
             });
 
-            core.info(`Updated ${recent.length} recent repositories and ${totalCommits} weekly commits.`);
+            core.info(`Updated ${recent.length} recent repositories, ${totalCommits} commits, research desk, and ${healthRows.length} project health rows.`);
