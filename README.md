@@ -186,9 +186,9 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 <!-- START_RECENT_REPOS -->
 | Repository | Description | Last updated |
 |:---|:---|:---|
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | Real-time DESCO prepaid meter analytics dashboard | 2026-08-13 |
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Bangladesh. It connects directly to the official DESCO customer portal, displaying real-time balance, daily usage trends, recharge breakdowns, anomaly detection, and bill projections. | 2026-08-13 |
 | [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
-| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF parser for AI-ready data and accessibility automation | 2026-08-08 |
+| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 2026-08-07 |
 <!-- END_RECENT_REPOS -->
 
 > This section is refreshed automatically by GitHub Actions and can be updated on demand with **workflow_dispatch**.
