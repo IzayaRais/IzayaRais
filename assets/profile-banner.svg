@@ -1,0 +1,48 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B18"/>
+      <stop offset="0.55" stop-color="#11152B"/>
+      <stop offset="1" stop-color="#24133F"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="200" y1="20" x2="1350" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#9B5CFF"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#A8B3D6" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="28" fill="url(#grid)"/>
+
+  <circle cx="1270" cy="110" r="135" fill="#6E45FF" fill-opacity="0.22" filter="url(#blur)"/>
+  <circle cx="1450" cy="340" r="120" fill="#00D4FF" fill-opacity="0.16" filter="url(#blur)"/>
+
+  <g opacity="0.92">
+    <path d="M1030 82H1130V132H1210V210H1300V286H1424" stroke="url(#glow)" stroke-width="3"/>
+    <path d="M1030 150H1092V215H1170V330H1270V370H1490" stroke="#00D4FF" stroke-opacity="0.6" stroke-width="2"/>
+    <path d="M1090 50V92H1160V148H1250V118H1320V182H1410V142H1515" stroke="#B78CFF" stroke-opacity="0.62" stroke-width="2"/>
+    <circle cx="1030" cy="82" r="7" fill="#00D4FF"/>
+    <circle cx="1210" cy="132" r="7" fill="#B78CFF"/>
+    <circle cx="1300" cy="286" r="7" fill="#00D4FF"/>
+    <circle cx="1424" cy="286" r="7" fill="#B78CFF"/>
+    <circle cx="1270" cy="370" r="7" fill="#00D4FF"/>
+    <circle cx="1515" cy="142" r="7" fill="#B78CFF"/>
+  </g>
+
+  <g transform="translate(88 80)">
+    <rect x="0" y="0" width="92" height="28" rx="14" fill="#00D4FF" fill-opacity="0.14" stroke="#00D4FF" stroke-opacity="0.55"/>
+    <text x="46" y="19" text-anchor="middle" fill="#8DEBFF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">WORKBENCH</text>
+    <text x="0" y="112" fill="white" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="700">Silicon → Signals → Software</text>
+    <text x="0" y="160" fill="#B9C4E4" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22">Raisul Islam Ratul · VLSI · AI-assisted EDA · Full-stack systems</text>
+    <path d="M0 205H650" stroke="url(#glow)" stroke-width="2"/>
+    <text x="0" y="246" fill="#7783A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="1.6">DESIGNING COMPLEX SYSTEMS TO FEEL SIMPLE</text>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="418" rx="27" stroke="#8290C7" stroke-opacity="0.22" stroke-width="2"/>
+</svg>

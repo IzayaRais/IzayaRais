@@ -1,316 +1,151 @@
-<!-- ═══════════════════════════════════════════════════════════════
-     RAISUL ISLAM RATUL — GitHub Profile README
-     Theme: Tokyo Night · Palette: #0d1117 / #00b4d8 / #7c3aed
-     ═══════════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="./assets/profile-banner.svg" alt="Raisul Islam Ratul — designing systems between silicon and software" width="100%" />
+</div>
 
 <div align="center">
+  <a href="https://github.com/IzayaRais/IzayaRais">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://raisul-ratul-portfolio.vercel.app/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/raisulislamratul/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:raisultensors@gmail.com">Email</a>
+</div>
 
-<!-- ── HERO TYPING ANIMATION ─────────────────────────────────── -->
-<a href="https://github.com/IzayaRais">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3500&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&height=70&lines=Hi%2C+I'm+Raisul+Islam+Ratul+%F0%9F%91%8B;VLSI+%26+Semiconductor+Engineer;IEEE+Published+Researcher;Full-Stack+%26+FPGA+Developer" alt="Typing SVG" />
-</a>
-
-<!-- ── HERO BADGES ─────────────────────────────────────────────── -->
 <br/>
 
-![Role](https://img.shields.io/badge/Role-EECE%20%7C%20VLSI%20Engineer-7c3aed?style=for-the-badge&logoColor=white)
-![Research](https://img.shields.io/badge/IEEE-Published%20Researcher-00b4d8?style=for-the-badge&logo=ieee&logoColor=white)
-![Location](https://img.shields.io/badge/Location-Dhaka%2C%20Bangladesh-0f172a?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Open%20to%20Opportunities-22c55e?style=for-the-badge&logoColor=white)
+# Raisul Islam Ratul
 
-<br/><br/>
+### I design the systems between silicon and software.
 
-<!-- ── PROFILE VIEWS + SOCIAL PROOF ───────────────────────────── -->
-![Profile Views](https://komarev.com/ghpvc/?username=IzayaRais&color=00b4d8&style=flat-square&label=Profile+Views)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/raisulislamratul/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7c3aed?style=flat-square&logo=vercel)](https://raisul-ratul-portfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Contact-ea4335?style=flat-square&logo=gmail)](mailto:raisultensors@gmail.com)
+Electrical and Electronic Communication Engineering graduate from **MIST**, IEEE-published researcher, and builder working across **VLSI, AI-assisted EDA, FPGA systems, signal processing, and full-stack products**.
 
-</div>
+> From transistor-level circuits to interfaces people can use, I like turning difficult systems into clear, working experiences.
 
----
+## The short version
 
-## 🧑‍💻 About Me
+| Research | Build | Explore |
+|:---|:---|:---|
+| Deep-learning-based circuit analysis and 90 nm CMOS design | RTL, FPGA, DSP pipelines, and full-stack applications | AI hardware acceleration, automated EDA, and neuromorphic computing |
 
-> **Hardware depth. Software breadth. Research backed by silicon.**
+## What I work on
 
-I'm an **Electrical, Electronic & Communication Engineering** graduate from **Military Institute of Science and Technology (MIST)**, Dhaka. My work sits at the intersection of semiconductor physics and modern software engineering — designing circuits at the 90nm CMOS node while shipping full-stack web applications and FPGA systems.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-- 🔬 **IEEE-published** researcher in **90nm CMOS technology** & **AI-based EDA automation**
-- 🖥️ **VLSI & FPGA** designer — RTL-to-GDSII flows, Verilog/VHDL, logic synthesis & timing closure
-- 🌐 **Full-Stack Developer** — JavaScript ecosystem, REST APIs, responsive UI/UX
-- 📡 **Signal Processing** engineer — DSP algorithms, audio analysis, MATLAB modelling
-- 🎯 Currently exploring: **AI hardware acceleration**, **deep learning-based circuit automation**, & **neuromorphic computing**
+### Silicon & VLSI
 
----
+I design and analyze digital and analog systems across RTL, CMOS, simulation, layout, physical verification, and timing-oriented workflows.
 
-## 🛠️ Tech Stack
+`Verilog` `VHDL` `Cadence` `SPICE` `FPGA`
+
+</td>
+<td width="33%" valign="top">
+
+### Signals & intelligent systems
+
+I build systems that extract structure from signals and schematics, combining DSP, computer vision, deep learning, OCR, and engineering domain knowledge.
+
+`Python` `PyTorch` `MATLAB` `OpenCV`
+
+</td>
+<td width="33%" valign="top">
+
+### Products & interfaces
+
+I turn technical ideas into usable software through responsive interfaces, APIs, data flows, and deployment-ready web applications.
+
+`TypeScript` `React` `Node.js` `Vercel`
+
+</td>
+</tr>
+</table>
+
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Schematics → Netlists](https://github.com/IzayaRais/Schematics-to-Netlists-Deep-Learning-Based-Electrical-Circuit-Analysis)
+
+An AI-assisted workflow for detecting electrical components in schematics and generating SPICE-ready netlists using object detection and OCR-based text fusion.
+
+**Research:** [IEEE QPAIN 2026](https://doi.org/10.1109/QPAIN69676.2026.11545525)
+
+</td>
+<td width="50%" valign="top">
+
+### [DESCO Smart Meter Monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)
+
+A privacy-focused, zero-database dashboard that connects to the official DESCO customer portal and turns meter data into balances, usage trends, recharge insights, anomalies, and projections.
+
+**Focus:** TypeScript · data visualization · product UX
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [LECTOR-Based CS-VCO](https://github.com/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS)
+
+Low-power current-starved VCO design in 90 nm CMOS for wireless IoT networks, reaching 95.472 µW power and 3.873–5.526 GHz tuning range.
+
+**Research:** [IEEE ICCIT 2025](https://doi.org/10.1109/ICCIT68739.2025.11552593)
+
+</td>
+<td width="50%" valign="top">
+
+### [Portfolio](https://raisul-ratul-portfolio.vercel.app/)
+
+A focused home for my VLSI research, FPGA work, signal-processing experiments, and software projects—built to make technical work easier to understand.
+
+**Focus:** JavaScript · responsive UI · deployment
+
+</td>
+</tr>
+</table>
+
+## Research notes
+
+| Publication | What it explores |
+|:---|:---|
+| [From Schematics to Netlists: Deep Learning Based Electrical Circuit Analysis](https://doi.org/10.1109/QPAIN69676.2026.11545525) | Computer vision, OCR, deep learning, and EDA automation |
+| [Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS for Wireless IoT Networks](https://doi.org/10.1109/ICCIT68739.2025.11552593) | Low-power CMOS design, VLSI, oscillators, and wireless IoT |
+
+## Live workbench
 
 <div align="center">
 
-### ⚡ Hardware & EDA
-
-<table>
-<tr>
-  <td align="center" width="110">
-    <img src="https://img.shields.io/badge/Verilog-HDL-00b4d8?style=flat-square" /><br/>
-    <sub><b>Verilog</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://img.shields.io/badge/VHDL-HDL-7c3aed?style=flat-square" /><br/>
-    <sub><b>VHDL</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://img.shields.io/badge/MATLAB-Signal-f97316?style=flat-square&logo=mathworks&logoColor=white" /><br/>
-    <sub><b>MATLAB</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://img.shields.io/badge/Cadence-EDA-e11d48?style=flat-square" /><br/>
-    <sub><b>Cadence</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://img.shields.io/badge/Xilinx-FPGA-f59e0b?style=flat-square" /><br/>
-    <sub><b>Xilinx</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://img.shields.io/badge/SPICE-Simulation-22c55e?style=flat-square" /><br/>
-    <sub><b>SPICE</b></sub>
-  </td>
-</tr>
-</table>
-
-### 💻 Languages
-
-<table>
-<tr>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/><br/>
-    <sub><b>Python</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/><br/>
-    <sub><b>JavaScript</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/><br/>
-    <sub><b>C</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/><br/>
-    <sub><b>C++</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/><br/>
-    <sub><b>HTML5</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/><br/>
-    <sub><b>CSS3</b></sub>
-  </td>
-</tr>
-</table>
-
-### 🌐 Web, Tools & Platforms
-
-<table>
-<tr>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/><br/>
-    <sub><b>React</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/><br/>
-    <sub><b>Node.js</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/><br/>
-    <sub><b>Git</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/><br/>
-    <sub><b>Linux</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40"/><br/>
-    <sub><b>VS Code</b></sub>
-  </td>
-  <td align="center" width="110">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="40" height="40"/><br/>
-    <sub><b>Vercel</b></sub>
-  </td>
-</tr>
-</table>
+![Public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FIzayaRais&query=%24.public_repos&label=public%20repos&style=flat-square&color=00b4d8)
+![Followers](https://img.shields.io/github/followers/IzayaRais?label=followers&style=flat-square&color=7c3aed)
+![Commit activity](https://img.shields.io/github/commit-activity/y/IzayaRais?label=commits%20this%20year&style=flat-square&color=22c55e)
 
 </div>
 
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<table>
-<tr>
-  <td>
-    <img src="https://github-readme-stats.vercel.app/api?username=IzayaRais&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=7c3aed&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
-  </td>
-  <td>
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=IzayaRais&theme=tokyonight&hide_border=true&background=0d1117&ring=00b4d8&fire=7c3aed&currStreakLabel=00b4d8" alt="GitHub Streak" />
-  </td>
-</tr>
-</table>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IzayaRais&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-
-<br/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=IzayaRais&theme=tokyo-night&bg_color=0d1117&color=00b4d8&line=7c3aed&point=ffffff&hide_border=true" alt="Activity Graph" width="100%"/>
-
-</div>
-
----
-
-## ⚡ Live GitHub Snapshot
-
-<div align="center">
-
-> A small, automatically refreshed view of what is happening across my public repositories.
-
-![Followers](https://img.shields.io/github/followers/IzayaRais?label=Followers&style=flat-square&color=00b4d8)
-![Public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FIzayaRais&query=%24.public_repos&label=Public%20Repos&style=flat-square&color=7c3aed)
-![Commit activity](https://img.shields.io/github/commit-activity/y/IzayaRais?label=Commits%20this%20year&style=flat-square&color=22c55e)
-
-</div>
-
-### Recently Updated
+The repository list below is refreshed automatically, so this section reflects the projects I am actively touching rather than only the projects I have already finished.
 
 <!-- START_RECENT_REPOS -->
-| Repository | Description | Last updated |
+| Recently updated | Description | Last pushed |
 |:---|:---|:---|
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Bangladesh. It connects directly to the official DESCO customer portal, displaying real-time balance, daily usage trends, recharge breakdowns, anomaly detection, and bill projections. | 2026-08-13 |
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A real-time analytics dashboard for DESCO prepaid electricity meters | 2026-08-13 |
 | [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
-| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 2026-08-07 |
+| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF parser for AI-ready data and accessibility automation | 2026-08-07 |
 <!-- END_RECENT_REPOS -->
 
-> This section is refreshed automatically by GitHub Actions and can be updated on demand with **workflow_dispatch**.
+## Current direction
 
----
+I am especially interested in work where **hardware knowledge becomes leverage for better software**: intelligent EDA tools, hardware-aware machine learning, efficient computing, and engineering interfaces that make complex systems legible.
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-<h3>🧠 Schematics to Netlists (IEEE QPAIN 2026)</h3>
-<a href="https://github.com/IzayaRais/Schematics-to-Netlists-Deep-Learning-Based-Electrical-Circuit-Analysis">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Schematics-to-Netlists-Deep-Learning-Based-Electrical-Circuit-Analysis&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Automated electrical schematic detection and SPICE netlist generation using YOLOv8x and YOLOv9e models combined with OCR-based text fusion.</p>
-<img src="https://img.shields.io/badge/IEEE-Xplore-00629B?style=flat-square&logo=ieee" />
-<img src="https://img.shields.io/badge/YOLO-v8%20%7C%20v9-yellow?style=flat-square" />
-<img src="https://img.shields.io/badge/PyTorch-Framework-ee4c2c?style=flat-square&logo=pytorch" />
-</td>
-
-<td width="50%" valign="top">
-<h3>🔬 LECTOR-Based CS-VCO (90nm CMOS)</h3>
-<a href="https://github.com/IzayaRais/LECTOR-Based-CS-VCO-90nm-CMOS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=LECTOR-Based-CS-VCO-90nm-CMOS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Low-power LECTOR-based CS-VCO in 90nm CMOS for IoT — 95.472 µW, 3.873–5.526 GHz, FoM −145.5 dBc/Hz. Published in IEEE ICCIT 2025.</p>
-<img src="https://img.shields.io/badge/IEEE-Xplore-00629B?style=flat-square&logo=ieee" />
-<img src="https://img.shields.io/badge/Cadence-Virtuoso-e11d48?style=flat-square" />
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" valign="top">
-<h3>🖥️ Configurable Logic Block (CLB) VLSI Design</h3>
-<a href="https://github.com/IzayaRais/CLB-VLSI-Design">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=CLB-VLSI-Design&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Complete CMOS-level design, layout, physical verification (DRC & LVS), and performance characterization of a 3:1 CLB FPGA unit using Cadence Virtuoso.</p>
-<img src="https://img.shields.io/badge/Cadence-Virtuoso-e11d48?style=flat-square" />
-<img src="https://img.shields.io/badge/SKILL-Scripting-7c3aed?style=flat-square" />
-</td>
-
-<td width="50%" valign="top">
-<h3>📡 Pulse-Code Modulation (PCM) Decoding System</h3>
-<a href="https://github.com/IzayaRais/Pulse-Code-Modulation-PCM-Decoding-System">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Pulse-Code-Modulation-PCM-Decoding-System&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Hardware-based PCM encoder and decoder system design featuring dual-layer PCB layout (Proteus) and software simulations in MATLAB/Simulink.</p>
-<img src="https://img.shields.io/badge/Proteus-PCB%20Design-00b4d8?style=flat-square" />
-<img src="https://img.shields.io/badge/MATLAB-Simulink-f97316?style=flat-square&logo=mathworks" />
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" valign="top">
-<h3>🔊 Audio Signal Denoising via Autocorrelation</h3>
-<a href="https://github.com/IzayaRais/Analyzing-Audio-Signals-and-Denoise-the-using-Auto--Correlation-in-MATLAB">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=Analyzing-Audio-Signals-and-Denoise-the-using-Auto--Correlation-in-MATLAB&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Implemented autocorrelation-based noise reduction pipeline in MATLAB — demonstrates applied DSP theory for real-world audio signal restoration.</p>
-<img src="https://img.shields.io/badge/MATLAB-Signal%20Processing-f97316?style=flat-square&logo=mathworks" />
-</td>
-
-<td width="50%" valign="top">
-<h3>🌐 Portfolio Website</h3>
-<a href="https://github.com/IzayaRais/portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzayaRais&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&icon_color=7c3aed" />
-</a>
-<p>Personal portfolio deployed on Vercel — showcasing VLSI research, FPGA projects, and full-stack work in a responsive, performance-optimized interface.</p>
-<img src="https://img.shields.io/badge/JavaScript-Vercel-7c3aed?style=flat-square&logo=vercel" />
-</td>
-
-</tr>
-</table>
-
-</div>
-
----
-
-## 🔬 Research Spotlight
+If you are working on semiconductor design, applied AI, embedded systems, signal processing, or a product that needs both technical depth and a clear user experience, I would be glad to connect.
 
 <div align="center">
 
-| | |
-|:---|:---|
-| **From Schematics to Netlists: Deep Learning Based Electrical Circuit Analysis** | **Venue**: IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN 2026)<br>**DOI**: [10.1109/QPAIN69676.2026.11545525](https://doi.org/10.1109/QPAIN69676.2026.11545525)<br>**Focus Area**: Deep Learning · Computer Vision · EDA Automation<br>**Status**: Published in IEEE Xplore ✅ |
-| **Low-Power LECTOR-Based Current-Starved VCO in 90 nm CMOS for Wireless IoT Networks** | **Venue**: IEEE 28th International Conference on Computer and Information Technology (ICCIT 2025)<br>**DOI**: [10.1109/ICCIT68739.2025.11552593](https://doi.org/10.1109/ICCIT68739.2025.11552593)<br>**Focus Area**: VLSI · Semiconductor Design · Low-Power CMOS Circuits<br>**Status**: Published in IEEE Xplore ✅ |
-
-> *"Bridging the gap between silicon layout, digital signal processing, and AI-driven automation."*
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/raisulislamratul/">
-  <img src="https://img.shields.io/badge/LinkedIn-Raisul%20Islam%20Ratul-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://raisul-ratul-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-raisul--ratul--portfolio.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-&nbsp;
-<a href="mailto:raisultensors@gmail.com">
-  <img src="https://img.shields.io/badge/Email-raisultensors%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br/><br/>
-
-*Open to research collaborations, hardware engineering roles, and full-stack opportunities.*
+**[Explore the repositories](https://github.com/IzayaRais?tab=repositories)** &nbsp;·&nbsp; **[Read the portfolio](https://raisul-ratul-portfolio.vercel.app/)** &nbsp;·&nbsp; **[Start a conversation](mailto:raisultensors@gmail.com)**
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=100&section=footer" width="100%"/>
+<sub>Bridging silicon, signals, and software.</sub>
 
 </div>

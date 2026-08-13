@@ -43,15 +43,19 @@ jobs:
               ? recent.map(item => {
                   const description = (item.description || 'No description provided')
                     .replace(/\|/g, '\\|')
-                    .replace(/\r?\n/g, ' ');
+                    .replace(/\r?\n/g, ' ')
+                    .trim();
+                  const compactDescription = description.length > 120
+                    ? `${description.slice(0, 117).trimEnd()}…`
+                    : description;
                   const updated = item.pushed_at ? item.pushed_at.slice(0, 10) : '—';
-                  return `| [${item.name}](${item.html_url}) | ${description} | ${updated} |`;
+                  return `| [${item.name}](${item.html_url}) | ${compactDescription} | ${updated} |`;
                 }).join('\n')
               : '| No public repositories found | — | — |';
 
             const replacement = [
               '<!-- START_RECENT_REPOS -->',
-              '| Repository | Description | Last updated |',
+              '| Recently updated | Description | Last pushed |',
               '|:---|:---|:---|',
               rows,
               '<!-- END_RECENT_REPOS -->'
