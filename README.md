@@ -250,19 +250,22 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> A quiet weekly pulse of what moved across the workbench.
+> From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor).
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
-| Public repositories updated | — |
-| Commits pushed | — |
-| Most active repository | — |
+| Public repositories updated | 2 |
+| Commits pushed | 21 |
+| Most active repository | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) |
 
 ### Latest pushes
 
-- The weekly activity summary will appear here after the first scheduled run.
+- **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — fix(desco): resolve meter & account numbers and handle null balance gracefully ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/3f9ae4fc20c11cb3eebc2aaf0fb433863e00435c))
+- **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — feat: enhance UI components, add Landing page, SEO metadata, error boundaries and recharge months ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/a55000c4c3027fac9da334203d702dedea1c932f))
+- **[FMHY](https://github.com/IzayaRais/FMHY)** — small fix ([commit](https://github.com/IzayaRais/FMHY/commit/ae5ae5875d8c781304f29a017a9de137ad76a0ad))
+- **[FMHY](https://github.com/IzayaRais/FMHY)** — updated 18 pages ([commit](https://github.com/IzayaRais/FMHY/commit/e6a2bb88f3474d664bed88af33ddd0a45369960a))
 <!-- END_WEEKLY_PULSE -->
 
 ## Current direction
