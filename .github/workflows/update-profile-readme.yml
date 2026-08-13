@@ -1,0 +1,83 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Refresh recently updated repositories
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const readmePath = 'README.md';
+
+            const { data: readme } = await github.rest.repos.getContent({ owner, repo, path: readmePath });
+            const current = Buffer.from(readme.content, 'base64').toString('utf8');
+
+            const { data: repositories } = await github.rest.repos.listForUser({
+              username: owner,
+              type: 'owner',
+              sort: 'pushed',
+              direction: 'desc',
+              per_page: 100
+            });
+
+            const recent = repositories
+              .filter(item => !item.private && item.name.toLowerCase() !== owner.toLowerCase())
+              .slice(0, 3);
+
+            const rows = recent.length
+              ? recent.map(item => {
+                  const description = (item.description || 'No description provided')
+                    .replace(/\|/g, '\\|')
+                    .replace(/\r?\n/g, ' ');
+                  const updated = item.pushed_at ? item.pushed_at.slice(0, 10) : '—';
+                  return `| [${item.name}](${item.html_url}) | ${description} | ${updated} |`;
+                }).join('\n')
+              : '| No public repositories found | — | — |';
+
+            const replacement = [
+              '<!-- START_RECENT_REPOS -->',
+              '| Repository | Description | Last updated |',
+              '|:---|:---|:---|',
+              rows,
+              '<!-- END_RECENT_REPOS -->'
+            ].join('\n');
+
+            const markerPattern = /<!-- START_RECENT_REPOS -->[\s\S]*?<!-- END_RECENT_REPOS -->/;
+            if (!markerPattern.test(current)) {
+              core.setFailed('README markers were not found.');
+              return;
+            }
+
+            const updated = current.replace(markerPattern, replacement);
+
+            if (updated === current) {
+              core.info('README is already up to date.');
+              return;
+            }
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path: readmePath,
+              message: 'chore: refresh profile README snapshot',
+              content: Buffer.from(updated, 'utf8').toString('base64'),
+              sha: readme.sha,
+              branch: context.ref.replace('refs/heads/', '') || 'main'
+            });
+
+            core.info(`Updated ${recent.length} repository entries.`);

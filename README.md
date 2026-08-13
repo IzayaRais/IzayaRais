@@ -169,6 +169,32 @@ I'm an **Electrical, Electronic & Communication Engineering** graduate from **Mi
 
 ---
 
+## ⚡ Live GitHub Snapshot
+
+<div align="center">
+
+> A small, automatically refreshed view of what is happening across my public repositories.
+
+![Followers](https://img.shields.io/github/followers/IzayaRais?label=Followers&style=flat-square&color=00b4d8)
+![Public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FIzayaRais&query=%24.public_repos&label=Public%20Repos&style=flat-square&color=7c3aed)
+![Commit activity](https://img.shields.io/github/commit-activity/y/IzayaRais?label=Commits%20this%20year&style=flat-square&color=22c55e)
+
+</div>
+
+### Recently Updated
+
+<!-- START_RECENT_REPOS -->
+| Repository | Description | Last updated |
+|:---|:---|:---|
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | Real-time DESCO prepaid meter analytics dashboard | 2026-08-13 |
+| [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
+| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF parser for AI-ready data and accessibility automation | 2026-08-08 |
+<!-- END_RECENT_REPOS -->
+
+> This section is refreshed automatically by GitHub Actions and can be updated on demand with **workflow_dispatch**.
+
+---
+
 ## 🚀 Featured Projects
 
 <div align="center">
