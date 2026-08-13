@@ -3,28 +3,28 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=20&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=900&height=50&lines=IEEE+published+researcher;VLSI+%7C+AI-assisted+EDA+%7C+Full-stack+systems;Building+from+schematics+to+shipping+products" alt="Animated introduction" />
+  <img src="./assets/animated-intro.svg" alt="Animated introduction" />
 </div>
 
 <div align="center">
   <a href="https://github.com/IzayaRais" title="GitHub">
-    <img src="https://cdn.simpleicons.org/github/B9C4E4" width="23" alt="GitHub" />
+    <img src="./assets/icons/github.svg" width="23" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="https://raisul-ratul-portfolio.vercel.app/" title="Portfolio">
-    <img src="https://cdn.simpleicons.org/vercel/B9C4E4" width="23" alt="Portfolio" />
+    <img src="./assets/icons/vercel.svg" width="23" alt="Portfolio" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/raisulislamratul/" title="LinkedIn">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="23" alt="LinkedIn" />
+    <img src="./assets/icons/linkedin.svg" width="23" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:raisultensors@gmail.com" title="Email">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="23" alt="Email" />
+    <img src="./assets/icons/gmail.svg" width="23" alt="Email" />
   </a>
   &nbsp;&nbsp;
   <a href="https://doi.org/10.1109/QPAIN69676.2026.11545525" title="IEEE publication">
-    <img src="https://cdn.simpleicons.org/ieee/00D4FF" width="23" alt="IEEE publication" />
+    <img src="./assets/icons/ieee.svg" width="23" alt="IEEE publication" />
   </a>
 </div>
 
@@ -81,14 +81,14 @@ I turn technical ideas into usable software through responsive interfaces, APIs,
 <div align="center">
   <sub><strong>STACK SIGNALS</strong></sub>
   <br/><br/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" alt="Python" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="34" alt="PyTorch" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="34" alt="TypeScript" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" alt="React" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34" alt="Node.js" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="34" alt="C++" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="34" alt="MATLAB" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="34" alt="Linux" />
+  <img src="./assets/icons/python.svg" width="34" alt="Python" />&nbsp;&nbsp;
+  <img src="./assets/icons/pytorch.svg" width="34" alt="PyTorch" />&nbsp;&nbsp;
+  <img src="./assets/icons/typescript.svg" width="34" alt="TypeScript" />&nbsp;&nbsp;
+  <img src="./assets/icons/react.svg" width="34" alt="React" />&nbsp;&nbsp;
+  <img src="./assets/icons/nodejs.svg" width="34" alt="Node.js" />&nbsp;&nbsp;
+  <img src="./assets/icons/cplusplus.svg" width="34" alt="C++" />&nbsp;&nbsp;
+  <img src="./assets/icons/matlab.svg" width="34" alt="MATLAB" />&nbsp;&nbsp;
+  <img src="./assets/icons/linux.svg" width="34" alt="Linux" />
 </div>
 
 ## Selected work

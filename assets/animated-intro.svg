@@ -1,0 +1,16 @@
+<svg width="900" height="50" viewBox="0 0 900 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { opacity: 0; animation: fade 9s infinite; }
+    .line2 { animation-delay: 3s; }
+    .line3 { animation-delay: 6s; }
+    @keyframes fade {
+      0%, 4% { opacity: 0; transform: translateY(5px); }
+      10%, 28% { opacity: 1; transform: translateY(0); }
+      34%, 100% { opacity: 0; transform: translateY(-5px); }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="49" rx="12" fill="#0D1117" stroke="#24304F"/>
+  <text class="line" x="450" y="31" text-anchor="middle" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">IEEE published researcher</text>
+  <text class="line line2" x="450" y="31" text-anchor="middle" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">VLSI  |  AI-assisted EDA  |  Full-stack systems</text>
+  <text class="line line3" x="450" y="31" text-anchor="middle" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">Building from schematics to shipping products</text>
+</svg>
