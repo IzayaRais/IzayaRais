@@ -240,9 +240,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Banglad… | 2026-08-13 |
+| [FreeDomain](https://github.com/IzayaRais/FreeDomain) | Free domain registration and practical DNS learning resources for everyone. | 2026-08-16 |
+| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Banglad… | 2026-08-14 |
 | [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
-| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 2026-08-07 |
 <!-- END_RECENT_REPOS -->
 
 ## Weekly build log
@@ -250,29 +250,28 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 9 · Fixes 4 · Documentation 1 · Maintenance 6**.
+> From 2026-08-10 to 2026-08-17, I pushed **14 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 8 · Fixes 3 · Documentation 1 · Maintenance 1**.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
 | Public repositories updated | 2 |
-| Commits pushed | 21 |
-| Contribution mix | Research 1 · Features 9 · Fixes 4 · Documentation 1 · Maintenance 6 |
+| Commits pushed | 14 |
+| Contribution mix | Research 1 · Features 8 · Fixes 3 · Documentation 1 · Maintenance 1 |
 | Pull requests | 1 |
 | Releases | 0 |
 | Most active repository | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) |
 
 ### This Week in the Lab
 
-From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 9 · Fixes 4 · Documentation 1 · Maintenance 6**.
+From 2026-08-10 to 2026-08-17, I pushed **14 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 8 · Fixes 3 · Documentation 1 · Maintenance 1**.
 
 ### Latest pushes
 
+- **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — fix: resolve date overflow, negative balance predictions, timezone drift, and tariff edge cases ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/47161f2f177a24d680b578c0f63bee0215332f99))
 - **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — fix(desco): resolve meter & account numbers and handle null balance gracefully ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/3f9ae4fc20c11cb3eebc2aaf0fb433863e00435c))
-- **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — feat: enhance UI components, add Landing page, SEO metadata, error boundaries and recharge months ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/a55000c4c3027fac9da334203d702dedea1c932f))
-- **[FMHY](https://github.com/IzayaRais/FMHY)** — small fix ([commit](https://github.com/IzayaRais/FMHY/commit/ae5ae5875d8c781304f29a017a9de137ad76a0ad))
-- **[FMHY](https://github.com/IzayaRais/FMHY)** — updated 18 pages ([commit](https://github.com/IzayaRais/FMHY/commit/e6a2bb88f3474d664bed88af33ddd0a45369960a))
+- **[FreeDomain](https://github.com/IzayaRais/FreeDomain)** — chore: improve repository discoverability and community setup ([commit](https://github.com/IzayaRais/FreeDomain/commit/9c7c54110705760267b07b6e6a6d406d1172a1bf))
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
@@ -291,10 +290,10 @@ From 2026-08-06 to 2026-08-13, I pushed **21 commits** across **2 public reposit
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
+| [FreeDomain](https://github.com/IzayaRais/FreeDomain) | [in progress] | 1 | — |
 | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | [in progress] | 0 | — |
 | [FMHY](https://github.com/IzayaRais/FMHY) | [in progress] | 0 | — |
 | [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | [in progress] | 0 | — |
-| [uptime-tracker](https://github.com/IzayaRais/uptime-tracker) | [in progress] | 1 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
