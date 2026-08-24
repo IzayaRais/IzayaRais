@@ -240,9 +240,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
+| [strix](https://github.com/IzayaRais/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. | 2026-08-17 |
 | [FreeDomain](https://github.com/IzayaRais/FreeDomain) | Free domain registration and practical DNS learning resources for everyone. | 2026-08-16 |
 | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Banglad… | 2026-08-14 |
-| [FMHY](https://github.com/IzayaRais/FMHY) | Make changes to FMHY | 2026-08-08 |
 <!-- END_RECENT_REPOS -->
 
 ## Weekly build log
@@ -250,28 +250,27 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-08-10 to 2026-08-17, I pushed **14 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 8 · Fixes 3 · Documentation 1 · Maintenance 1**.
+> From 2026-08-17 to 2026-08-24, I pushed **8 commits** across **1 public repository**. The most active thread was [strix](https://github.com/IzayaRais/strix), with the work leaning toward **Features 2 · Fixes 1 · Maintenance 5**.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
-| Public repositories updated | 2 |
-| Commits pushed | 14 |
-| Contribution mix | Research 1 · Features 8 · Fixes 3 · Documentation 1 · Maintenance 1 |
-| Pull requests | 1 |
+| Public repositories updated | 1 |
+| Commits pushed | 8 |
+| Contribution mix | Features 2 · Fixes 1 · Maintenance 5 |
+| Pull requests | 0 |
 | Releases | 0 |
-| Most active repository | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) |
+| Most active repository | [strix](https://github.com/IzayaRais/strix) |
 
 ### This Week in the Lab
 
-From 2026-08-10 to 2026-08-17, I pushed **14 commits** across **2 public repositories**. The most active thread was [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor), with the work leaning toward **Research 1 · Features 8 · Fixes 3 · Documentation 1 · Maintenance 1**.
+From 2026-08-17 to 2026-08-24, I pushed **8 commits** across **1 public repository**. The most active thread was [strix](https://github.com/IzayaRais/strix), with the work leaning toward **Features 2 · Fixes 1 · Maintenance 5**.
 
 ### Latest pushes
 
-- **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — fix: resolve date overflow, negative balance predictions, timezone drift, and tariff edge cases ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/47161f2f177a24d680b578c0f63bee0215332f99))
-- **[desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor)** — fix(desco): resolve meter & account numbers and handle null balance gracefully ([commit](https://github.com/IzayaRais/desco-smart-meter-monitor/commit/3f9ae4fc20c11cb3eebc2aaf0fb433863e00435c))
-- **[FreeDomain](https://github.com/IzayaRais/FreeDomain)** — chore: improve repository discoverability and community setup ([commit](https://github.com/IzayaRais/FreeDomain/commit/9c7c54110705760267b07b6e6a6d406d1172a1bf))
+- **[strix](https://github.com/IzayaRais/strix)** — handle resume tokens gracefully (#1097) ([commit](https://github.com/IzayaRais/strix/commit/8ede419dccf6742aa0e0c4fe3e7faf11c471ff9a))
+- **[strix](https://github.com/IzayaRais/strix)** — feat(reporting): require contextual CVSS and usage evidence on dependency reports ([commit](https://github.com/IzayaRais/strix/commit/a46a60cf6a78f15f556b3456ecf6452a0ad06e6f))
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
@@ -290,10 +289,10 @@ From 2026-08-10 to 2026-08-17, I pushed **14 commits** across **2 public reposit
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
+| [strix](https://github.com/IzayaRais/strix) | [in progress] | 0 | — |
 | [FreeDomain](https://github.com/IzayaRais/FreeDomain) | [in progress] | 1 | — |
 | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | [in progress] | 0 | — |
 | [FMHY](https://github.com/IzayaRais/FMHY) | [in progress] | 0 | — |
-| [opendataloader-pdf](https://github.com/IzayaRais/opendataloader-pdf) | [in progress] | 0 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
