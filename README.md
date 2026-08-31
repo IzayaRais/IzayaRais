@@ -240,9 +240,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
+| [ai-job-search](https://github.com/IzayaRais/ai-job-search) | The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor… | 2026-08-26 |
 | [strix](https://github.com/IzayaRais/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. | 2026-08-17 |
 | [FreeDomain](https://github.com/IzayaRais/FreeDomain) | Free domain registration and practical DNS learning resources for everyone. | 2026-08-16 |
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | A privacy-focused, zero-database real-time analytics dashboard for DESCO prepaid electricity meter customers in Banglad… | 2026-08-14 |
 <!-- END_RECENT_REPOS -->
 
 ## Weekly build log
@@ -250,27 +250,27 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-08-17 to 2026-08-24, I pushed **8 commits** across **1 public repository**. The most active thread was [strix](https://github.com/IzayaRais/strix), with the work leaning toward **Features 2 · Fixes 1 · Maintenance 5**.
+> From 2026-08-24 to 2026-08-31, I pushed **4 commits** across **1 public repository**. The most active thread was [ai-job-search](https://github.com/IzayaRais/ai-job-search), with the work leaning toward **Features 2 · Fixes 1 · Documentation 1**.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
 | Public repositories updated | 1 |
-| Commits pushed | 8 |
-| Contribution mix | Features 2 · Fixes 1 · Maintenance 5 |
+| Commits pushed | 4 |
+| Contribution mix | Features 2 · Fixes 1 · Documentation 1 |
 | Pull requests | 0 |
 | Releases | 0 |
-| Most active repository | [strix](https://github.com/IzayaRais/strix) |
+| Most active repository | [ai-job-search](https://github.com/IzayaRais/ai-job-search) |
 
 ### This Week in the Lab
 
-From 2026-08-17 to 2026-08-24, I pushed **8 commits** across **1 public repository**. The most active thread was [strix](https://github.com/IzayaRais/strix), with the work leaning toward **Features 2 · Fixes 1 · Maintenance 5**.
+From 2026-08-24 to 2026-08-31, I pushed **4 commits** across **1 public repository**. The most active thread was [ai-job-search](https://github.com/IzayaRais/ai-job-search), with the work leaning toward **Features 2 · Fixes 1 · Documentation 1**.
 
 ### Latest pushes
 
-- **[strix](https://github.com/IzayaRais/strix)** — handle resume tokens gracefully (#1097) ([commit](https://github.com/IzayaRais/strix/commit/8ede419dccf6742aa0e0c4fe3e7faf11c471ff9a))
-- **[strix](https://github.com/IzayaRais/strix)** — feat(reporting): require contextual CVSS and usage evidence on dependency reports ([commit](https://github.com/IzayaRais/strix/commit/a46a60cf6a78f15f556b3456ecf6452a0ad06e6f))
+- **[ai-job-search](https://github.com/IzayaRais/ai-job-search)** — docs(changelog): record the Python 3.10-3.14 CI matrix (#370) ([commit](https://github.com/IzayaRais/ai-job-search/commit/d1504d238844636f847e56565037632e6d8d6dd6))
+- **[ai-job-search](https://github.com/IzayaRais/ai-job-search)** — ci: add Python version matrix (3.10-3.14) to tool tests job (#370) ([commit](https://github.com/IzayaRais/ai-job-search/commit/23dc1936b11d2154fbf0921343948d73f651f9d1))
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
@@ -289,10 +289,10 @@ From 2026-08-17 to 2026-08-24, I pushed **8 commits** across **1 public reposito
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
+| [ai-job-search](https://github.com/IzayaRais/ai-job-search) | [in progress] | 0 | — |
 | [strix](https://github.com/IzayaRais/strix) | [in progress] | 0 | — |
 | [FreeDomain](https://github.com/IzayaRais/FreeDomain) | [in progress] | 1 | — |
 | [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | [in progress] | 0 | — |
-| [FMHY](https://github.com/IzayaRais/FMHY) | [in progress] | 0 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
