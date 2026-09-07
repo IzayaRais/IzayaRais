@@ -250,27 +250,26 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-08-24 to 2026-08-31, I pushed **4 commits** across **1 public repository**. The most active thread was [ai-job-search](https://github.com/IzayaRais/ai-job-search), with the work leaning toward **Features 2 · Fixes 1 · Documentation 1**.
+> From 2026-08-31 to 2026-09-07, the public workbench recorded no repository commits.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
-| Public repositories updated | 1 |
-| Commits pushed | 4 |
-| Contribution mix | Features 2 · Fixes 1 · Documentation 1 |
+| Public repositories updated | 0 |
+| Commits pushed | 0 |
+| Contribution mix | No classified commits |
 | Pull requests | 0 |
 | Releases | 0 |
-| Most active repository | [ai-job-search](https://github.com/IzayaRais/ai-job-search) |
+| Most active repository | No public repository activity |
 
 ### This Week in the Lab
 
-From 2026-08-24 to 2026-08-31, I pushed **4 commits** across **1 public repository**. The most active thread was [ai-job-search](https://github.com/IzayaRais/ai-job-search), with the work leaning toward **Features 2 · Fixes 1 · Documentation 1**.
+From 2026-08-31 to 2026-09-07, the public workbench recorded no repository commits.
 
 ### Latest pushes
 
-- **[ai-job-search](https://github.com/IzayaRais/ai-job-search)** — docs(changelog): record the Python 3.10-3.14 CI matrix (#370) ([commit](https://github.com/IzayaRais/ai-job-search/commit/d1504d238844636f847e56565037632e6d8d6dd6))
-- **[ai-job-search](https://github.com/IzayaRais/ai-job-search)** — ci: add Python version matrix (3.10-3.14) to tool tests job (#370) ([commit](https://github.com/IzayaRais/ai-job-search/commit/23dc1936b11d2154fbf0921343948d73f651f9d1))
+- No public pushes recorded in the last seven days.
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
