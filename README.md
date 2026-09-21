@@ -240,9 +240,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
+| [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) | No description provided | 2026-09-20 |
+| [central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management) | Central Utility Department — CAP Report Management Web Application | 2026-09-17 |
 | [ai-job-search](https://github.com/IzayaRais/ai-job-search) | The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor… | 2026-08-26 |
-| [strix](https://github.com/IzayaRais/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. | 2026-08-17 |
-| [FreeDomain](https://github.com/IzayaRais/FreeDomain) | Free domain registration and practical DNS learning resources for everyone. | 2026-08-16 |
 <!-- END_RECENT_REPOS -->
 
 ## Weekly build log
@@ -250,26 +250,29 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-09-07 to 2026-09-14, the public workbench recorded no repository commits.
+> From 2026-09-14 to 2026-09-21, I pushed **9 commits** across **2 public repositories**. The most active thread was [Epic-Utility](https://github.com/IzayaRais/Epic-Utility), with the work leaning toward **Features 7 · Maintenance 2**.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
-| Public repositories updated | 0 |
-| Commits pushed | 0 |
-| Contribution mix | No classified commits |
+| Public repositories updated | 2 |
+| Commits pushed | 9 |
+| Contribution mix | Features 7 · Maintenance 2 |
 | Pull requests | 0 |
 | Releases | 0 |
-| Most active repository | No public repository activity |
+| Most active repository | [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) |
 
 ### This Week in the Lab
 
-From 2026-09-07 to 2026-09-14, the public workbench recorded no repository commits.
+From 2026-09-14 to 2026-09-21, I pushed **9 commits** across **2 public repositories**. The most active thread was [Epic-Utility](https://github.com/IzayaRais/Epic-Utility), with the work leaning toward **Features 7 · Maintenance 2**.
 
 ### Latest pushes
 
-- No public pushes recorded in the last seven days.
+- **[Epic-Utility](https://github.com/IzayaRais/Epic-Utility)** — feat: serve reports directly from Google Sheets with strict plant isolation and simplify photo intake form ([commit](https://github.com/IzayaRais/Epic-Utility/commit/a66a966827e32d46edbf48110b4ea04ce186a453))
+- **[Epic-Utility](https://github.com/IzayaRais/Epic-Utility)** — feat: direct Google Cloud API architecture, minimal hardware camera & storage UI, zero-scroll 1:1 image previews, and admin findings manage… ([commit](https://github.com/IzayaRais/Epic-Utility/commit/e9181d6cacd6c4dd26d0b0aca583545df46d7a5a))
+- **[central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management)** — feat: enterprise multi-spreadsheet architecture with master admin, plant workbooks, and live audit logs ([commit](https://github.com/IzayaRais/central-utility-cap-management/commit/47ea75ccfbb3d031ee092c57a63b8ffbc300f8b8))
+- **[central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management)** — feat: multi-user credentials, dynamic multi-tab Google Sheets, and plant-scoped views ([commit](https://github.com/IzayaRais/central-utility-cap-management/commit/9c35b748f5c991a174d479e3af4d4de53fc4d324))
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
@@ -288,10 +291,10 @@ From 2026-09-07 to 2026-09-14, the public workbench recorded no repository commi
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
+| [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) | [in progress] | 0 | — |
+| [central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management) | [in progress] | 0 | — |
 | [ai-job-search](https://github.com/IzayaRais/ai-job-search) | [in progress] | 0 | — |
 | [strix](https://github.com/IzayaRais/strix) | [in progress] | 0 | — |
-| [FreeDomain](https://github.com/IzayaRais/FreeDomain) | [in progress] | 1 | — |
-| [desco-smart-meter-monitor](https://github.com/IzayaRais/desco-smart-meter-monitor) | [in progress] | 0 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
