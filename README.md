@@ -250,7 +250,7 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-09-21 to 2026-09-28, the public workbench recorded no repository commits.
+> From 2026-09-28 to 2026-10-05, the public workbench recorded no repository commits.
 
 </div>
 
@@ -265,7 +265,7 @@ The repository list below is refreshed automatically, so this section reflects t
 
 ### This Week in the Lab
 
-From 2026-09-21 to 2026-09-28, the public workbench recorded no repository commits.
+From 2026-09-28 to 2026-10-05, the public workbench recorded no repository commits.
 
 ### Latest pushes
 
