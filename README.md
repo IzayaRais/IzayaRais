@@ -240,9 +240,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
+| [geo-sleuth](https://github.com/IzayaRais/geo-sleuth) | An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and s… | 2026-10-12 |
+| [epic-utility-hub](https://github.com/IzayaRais/epic-utility-hub) | EPIC Utility Hub — Smart Energy & Utility Consumption Monitoring System | 2026-09-26 |
 | [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) | No description provided | 2026-09-20 |
-| [central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management) | Central Utility Department — CAP Report Management Web Application | 2026-09-17 |
-| [ai-job-search](https://github.com/IzayaRais/ai-job-search) | The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor… | 2026-08-26 |
 <!-- END_RECENT_REPOS -->
 
 ## Weekly build log
@@ -250,26 +250,27 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-09-28 to 2026-10-05, the public workbench recorded no repository commits.
+> From 2026-10-05 to 2026-10-12, I pushed **17 commits** across **1 public repository**. The most active thread was [geo-sleuth](https://github.com/IzayaRais/geo-sleuth), with the work leaning toward **Features 5 · Fixes 3 · Maintenance 9**.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
-| Public repositories updated | 0 |
-| Commits pushed | 0 |
-| Contribution mix | No classified commits |
+| Public repositories updated | 1 |
+| Commits pushed | 17 |
+| Contribution mix | Features 5 · Fixes 3 · Maintenance 9 |
 | Pull requests | 0 |
 | Releases | 0 |
-| Most active repository | No public repository activity |
+| Most active repository | [geo-sleuth](https://github.com/IzayaRais/geo-sleuth) |
 
 ### This Week in the Lab
 
-From 2026-09-28 to 2026-10-05, the public workbench recorded no repository commits.
+From 2026-10-05 to 2026-10-12, I pushed **17 commits** across **1 public repository**. The most active thread was [geo-sleuth](https://github.com/IzayaRais/geo-sleuth), with the work leaning toward **Features 5 · Fixes 3 · Maintenance 9**.
 
 ### Latest pushes
 
-- No public pushes recorded in the last seven days.
+- **[geo-sleuth](https://github.com/IzayaRais/geo-sleuth)** — Merge pull request #13 from cristianchiriac/windows-cjk-fonts ([commit](https://github.com/IzayaRais/geo-sleuth/commit/b5419379c1936d6ee07283950fa3ac1fb81563e8))
+- **[geo-sleuth](https://github.com/IzayaRais/geo-sleuth)** — Include Microsoft YaHei bold fallback from #14 ([commit](https://github.com/IzayaRais/geo-sleuth/commit/36c2b426538b0939b68a49c8a50dd96b0dc9c46f))
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
@@ -288,10 +289,10 @@ From 2026-09-28 to 2026-10-05, the public workbench recorded no repository commi
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
+| [geo-sleuth](https://github.com/IzayaRais/geo-sleuth) | [in progress] | 0 | — |
+| [epic-utility-hub](https://github.com/IzayaRais/epic-utility-hub) | [in progress] | 0 | — |
 | [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) | [in progress] | 0 | — |
 | [central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management) | [in progress] | 0 | — |
-| [ai-job-search](https://github.com/IzayaRais/ai-job-search) | [in progress] | 0 | — |
-| [strix](https://github.com/IzayaRais/strix) | [in progress] | 0 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
