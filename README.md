@@ -240,9 +240,9 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_RECENT_REPOS -->
 | Recently updated | Description | Last pushed |
 |:---|:---|:---|
+| [hallmark](https://github.com/IzayaRais/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor, and Codex. | 2026-10-30 |
+| [downloadcraft](https://github.com/IzayaRais/downloadcraft) | DownloadCraft - lightweight offline-first IDM alternative in Rust (egui GUI + CLI, segmented downloads, scheduler, brow… | 2026-10-28 |
 | [geo-sleuth](https://github.com/IzayaRais/geo-sleuth) | An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and s… | 2026-10-12 |
-| [epic-utility-hub](https://github.com/IzayaRais/epic-utility-hub) | EPIC Utility Hub — Smart Energy & Utility Consumption Monitoring System | 2026-09-26 |
-| [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) | No description provided | 2026-09-20 |
 <!-- END_RECENT_REPOS -->
 
 ## Weekly build log
@@ -250,26 +250,29 @@ The repository list below is refreshed automatically, so this section reflects t
 <!-- START_WEEKLY_PULSE -->
 <div align="center">
 
-> From 2026-10-19 to 2026-10-26, the public workbench recorded no repository commits.
+> From 2026-10-26 to 2026-11-02, I pushed **57 commits** across **2 public repositories**. The most active thread was [downloadcraft](https://github.com/IzayaRais/downloadcraft), with the work leaning toward **Features 9 · Fixes 4 · Documentation 7 · Maintenance 37**.
 
 </div>
 
 | Signal | Last 7 days |
 |:---|:---|
-| Public repositories updated | 0 |
-| Commits pushed | 0 |
-| Contribution mix | No classified commits |
-| Pull requests | 0 |
+| Public repositories updated | 2 |
+| Commits pushed | 57 |
+| Contribution mix | Features 9 · Fixes 4 · Documentation 7 · Maintenance 37 |
+| Pull requests | 2 |
 | Releases | 0 |
-| Most active repository | No public repository activity |
+| Most active repository | [downloadcraft](https://github.com/IzayaRais/downloadcraft) |
 
 ### This Week in the Lab
 
-From 2026-10-19 to 2026-10-26, the public workbench recorded no repository commits.
+From 2026-10-26 to 2026-11-02, I pushed **57 commits** across **2 public repositories**. The most active thread was [downloadcraft](https://github.com/IzayaRais/downloadcraft), with the work leaning toward **Features 9 · Fixes 4 · Documentation 7 · Maintenance 37**.
 
 ### Latest pushes
 
-- No public pushes recorded in the last seven days.
+- **[hallmark](https://github.com/IzayaRais/hallmark)** — Merge pull request #95 from HelloWorld3326/fix/theme-crlf-header ([commit](https://github.com/IzayaRais/hallmark/commit/4f6a46c6dc325d40ab268c93e25c7b96676ebccd))
+- **[hallmark](https://github.com/IzayaRais/hallmark)** — Merge pull request #103 from xunguangzlj-cloud/fix/sloplint-symlink-cycles ([commit](https://github.com/IzayaRais/hallmark/commit/9d2d115d478b70d683b2059318b7252617935b4f))
+- **[downloadcraft](https://github.com/IzayaRais/downloadcraft)** — Linux packages: an empty CPU feature table for UnRAR under zig ([commit](https://github.com/IzayaRais/downloadcraft/commit/75198b9ea72d11bbe2a5a515fead5bafb54edd8c))
+- **[downloadcraft](https://github.com/IzayaRais/downloadcraft)** — Download Craft 0.9.10 ([commit](https://github.com/IzayaRais/downloadcraft/commit/b0912a88846d42146818760aa6741836f60fd94c))
 <!-- END_WEEKLY_PULSE -->
 
 ## Latest research & writing
@@ -288,10 +291,10 @@ From 2026-10-19 to 2026-10-26, the public workbench recorded no repository commi
 <!-- START_PROJECT_HEALTH -->
 | Project | Workflow health | Open PRs | Latest release |
 |:---|:---:|:---:|:---|
+| [hallmark](https://github.com/IzayaRais/hallmark) | [in progress] | 1 | — |
+| [downloadcraft](https://github.com/IzayaRais/downloadcraft) | [in progress] | 1 | — |
 | [geo-sleuth](https://github.com/IzayaRais/geo-sleuth) | [in progress] | 0 | — |
 | [epic-utility-hub](https://github.com/IzayaRais/epic-utility-hub) | [in progress] | 0 | — |
-| [Epic-Utility](https://github.com/IzayaRais/Epic-Utility) | [in progress] | 0 | — |
-| [central-utility-cap-management](https://github.com/IzayaRais/central-utility-cap-management) | [in progress] | 0 | — |
 <!-- END_PROJECT_HEALTH -->
 
 ## Collaboration status
